@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 20px 0;
+    color: #fff;
+}
+
+.gallery-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    gap: 15px;
+}
+
+.gallery-section div {
+    flex: 0 1 auto;
+}
+
+.gallery-section img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid white;
+}

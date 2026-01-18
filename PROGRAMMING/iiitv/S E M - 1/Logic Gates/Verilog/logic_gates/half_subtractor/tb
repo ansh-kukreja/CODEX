@@ -1,0 +1,135 @@
+#! /opt/homebrew/Cellar/icarus-verilog/12.0/bin/vvp
+:ivl_version "12.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/system.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/v2005_math.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/va_math.vpi";
+S_0x15bf040e0 .scope module, "tb_half_subtractor" "tb_half_subtractor" 2 1;
+ .timescale 0 0;
+v0x15bf27380_0 .var "a", 0 0;
+v0x15bf27410_0 .var "b", 0 0;
+v0x15bf274a0_0 .net "borrow_direct", 0 0, L_0x15bf27ae0;  1 drivers
+v0x15bf27530_0 .net "borrow_nand", 0 0, L_0x15bf27f30;  1 drivers
+v0x15bf275c0_0 .net "borrow_nor", 0 0, L_0x15bf28a90;  1 drivers
+v0x15bf27690_0 .net "diff_direct", 0 0, L_0x15bf278a0;  1 drivers
+v0x15bf27740_0 .net "diff_nand", 0 0, L_0x15bf286d0;  1 drivers
+v0x15bf277f0_0 .net "diff_nor", 0 0, L_0x15bf28fa0;  1 drivers
+S_0x15bf04250 .scope module, "hs1" "half_subtractor" 2 8, 3 2 0, S_0x15bf040e0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "diff";
+    .port_info 3 /OUTPUT 1 "borrow";
+L_0x15bf278a0 .functor XOR 1, v0x15bf27380_0, v0x15bf27410_0, C4<0>, C4<0>;
+L_0x15bf27a70 .functor NOT 1, v0x15bf27380_0, C4<0>, C4<0>, C4<0>;
+L_0x15bf27ae0 .functor AND 1, L_0x15bf27a70, v0x15bf27410_0, C4<1>, C4<1>;
+v0x15bf07f20_0 .net *"_ivl_2", 0 0, L_0x15bf27a70;  1 drivers
+v0x15bf25670_0 .net "a", 0 0, v0x15bf27380_0;  1 drivers
+v0x15bf25710_0 .net "b", 0 0, v0x15bf27410_0;  1 drivers
+v0x15bf257c0_0 .net "borrow", 0 0, L_0x15bf27ae0;  alias, 1 drivers
+v0x15bf25860_0 .net "diff", 0 0, L_0x15bf278a0;  alias, 1 drivers
+S_0x15bf25980 .scope module, "hs2" "half_subtractor_nand" 2 9, 3 11 0, S_0x15bf040e0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "diff";
+    .port_info 3 /OUTPUT 1 "borrow";
+L_0x15bf27b50 .functor AND 1, v0x15bf27380_0, v0x15bf27380_0, C4<1>, C4<1>;
+L_0x15bf27be0 .functor NOT 1, L_0x15bf27b50, C4<0>, C4<0>, C4<0>;
+L_0x15bf27cb0 .functor AND 1, L_0x15bf27be0, v0x15bf27410_0, C4<1>, C4<1>;
+L_0x15bf27d80 .functor NOT 1, L_0x15bf27cb0, C4<0>, C4<0>, C4<0>;
+L_0x15bf27e50 .functor AND 1, L_0x15bf27d80, L_0x15bf27d80, C4<1>, C4<1>;
+L_0x15bf27f30 .functor NOT 1, L_0x15bf27e50, C4<0>, C4<0>, C4<0>;
+L_0x15bf28020 .functor AND 1, v0x15bf27380_0, v0x15bf27410_0, C4<1>, C4<1>;
+L_0x15bf27970 .functor NOT 1, L_0x15bf28020, C4<0>, C4<0>, C4<0>;
+L_0x15bf28210 .functor AND 1, v0x15bf27380_0, L_0x15bf27970, C4<1>, C4<1>;
+L_0x15bf28310 .functor NOT 1, L_0x15bf28210, C4<0>, C4<0>, C4<0>;
+L_0x15bf28380 .functor AND 1, v0x15bf27410_0, L_0x15bf27970, C4<1>, C4<1>;
+L_0x15bf279f0 .functor NOT 1, L_0x15bf28380, C4<0>, C4<0>, C4<0>;
+L_0x15bf28550 .functor AND 1, L_0x15bf28310, L_0x15bf279f0, C4<1>, C4<1>;
+L_0x15bf286d0 .functor NOT 1, L_0x15bf28550, C4<0>, C4<0>, C4<0>;
+v0x15bf25bb0_0 .net *"_ivl_0", 0 0, L_0x15bf27b50;  1 drivers
+v0x15bf25c60_0 .net *"_ivl_12", 0 0, L_0x15bf28020;  1 drivers
+v0x15bf25d10_0 .net *"_ivl_16", 0 0, L_0x15bf28210;  1 drivers
+v0x15bf25dd0_0 .net *"_ivl_20", 0 0, L_0x15bf28380;  1 drivers
+v0x15bf25e80_0 .net *"_ivl_24", 0 0, L_0x15bf28550;  1 drivers
+v0x15bf25f70_0 .net *"_ivl_4", 0 0, L_0x15bf27cb0;  1 drivers
+v0x15bf26020_0 .net *"_ivl_8", 0 0, L_0x15bf27e50;  1 drivers
+v0x15bf260d0_0 .net "a", 0 0, v0x15bf27380_0;  alias, 1 drivers
+v0x15bf26160_0 .net "b", 0 0, v0x15bf27410_0;  alias, 1 drivers
+v0x15bf26290_0 .net "borrow", 0 0, L_0x15bf27f30;  alias, 1 drivers
+v0x15bf26320_0 .net "diff", 0 0, L_0x15bf286d0;  alias, 1 drivers
+v0x15bf263b0_0 .net "nand_ab", 0 0, L_0x15bf27d80;  1 drivers
+v0x15bf26440_0 .net "nota", 0 0, L_0x15bf27be0;  1 drivers
+v0x15bf264d0_0 .net "t1", 0 0, L_0x15bf27970;  1 drivers
+v0x15bf26560_0 .net "t2", 0 0, L_0x15bf28310;  1 drivers
+v0x15bf265f0_0 .net "t3", 0 0, L_0x15bf279f0;  1 drivers
+S_0x15bf266f0 .scope module, "hs3" "half_subtractor_nor" 2 10, 3 32 0, S_0x15bf040e0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "diff";
+    .port_info 3 /OUTPUT 1 "borrow";
+L_0x15bf28780 .functor OR 1, v0x15bf27380_0, v0x15bf27380_0, C4<0>, C4<0>;
+L_0x15bf287f0 .functor NOT 1, L_0x15bf28780, C4<0>, C4<0>, C4<0>;
+L_0x15bf288a0 .functor OR 1, v0x15bf27410_0, v0x15bf27410_0, C4<0>, C4<0>;
+L_0x15bf28910 .functor NOT 1, L_0x15bf288a0, C4<0>, C4<0>, C4<0>;
+L_0x15bf289e0 .functor OR 1, v0x15bf27380_0, L_0x15bf28910, C4<0>, C4<0>;
+L_0x15bf28a90 .functor NOT 1, L_0x15bf289e0, C4<0>, C4<0>, C4<0>;
+L_0x15bf28b80 .functor OR 1, v0x15bf27380_0, L_0x15bf28910, C4<0>, C4<0>;
+L_0x15bf28c30 .functor NOT 1, L_0x15bf28b80, C4<0>, C4<0>, C4<0>;
+L_0x15bf28ce0 .functor OR 1, L_0x15bf287f0, v0x15bf27410_0, C4<0>, C4<0>;
+L_0x15bf28de0 .functor NOT 1, L_0x15bf28ce0, C4<0>, C4<0>, C4<0>;
+L_0x15bf28e50 .functor OR 1, L_0x15bf28c30, L_0x15bf28de0, C4<0>, C4<0>;
+L_0x15bf28fa0 .functor NOT 1, L_0x15bf28e50, C4<0>, C4<0>, C4<0>;
+v0x15bf26930_0 .net *"_ivl_0", 0 0, L_0x15bf28780;  1 drivers
+v0x15bf269e0_0 .net *"_ivl_12", 0 0, L_0x15bf28b80;  1 drivers
+v0x15bf26a90_0 .net *"_ivl_16", 0 0, L_0x15bf28ce0;  1 drivers
+v0x15bf26b50_0 .net *"_ivl_20", 0 0, L_0x15bf28e50;  1 drivers
+v0x15bf26c00_0 .net *"_ivl_4", 0 0, L_0x15bf288a0;  1 drivers
+v0x15bf26cf0_0 .net *"_ivl_8", 0 0, L_0x15bf289e0;  1 drivers
+v0x15bf26da0_0 .net "a", 0 0, v0x15bf27380_0;  alias, 1 drivers
+v0x15bf26e70_0 .net "b", 0 0, v0x15bf27410_0;  alias, 1 drivers
+v0x15bf26f40_0 .net "borrow", 0 0, L_0x15bf28a90;  alias, 1 drivers
+v0x15bf27050_0 .net "diff", 0 0, L_0x15bf28fa0;  alias, 1 drivers
+v0x15bf270e0_0 .net "nota", 0 0, L_0x15bf287f0;  1 drivers
+v0x15bf27170_0 .net "notb", 0 0, L_0x15bf28910;  1 drivers
+v0x15bf27200_0 .net "t1", 0 0, L_0x15bf28c30;  1 drivers
+v0x15bf27290_0 .net "t2", 0 0, L_0x15bf28de0;  1 drivers
+    .scope S_0x15bf040e0;
+T_0 ;
+    %vpi_call 2 13 "$dumpfile", "dump.vcd" {0 0 0};
+    %vpi_call 2 14 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x15bf040e0 {0 0 0};
+    %vpi_call 2 16 "$monitor", "T=%0t | a=%b b=%b || Direct: Diff=%b Borrow=%b || NAND: Diff=%b Borrow=%b || NOR: Diff=%b Borrow=%b", $time, v0x15bf27380_0, v0x15bf27410_0, v0x15bf27690_0, v0x15bf274a0_0, v0x15bf27740_0, v0x15bf27530_0, v0x15bf277f0_0, v0x15bf275c0_0 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x15bf27380_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x15bf27410_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x15bf27380_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x15bf27410_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x15bf27380_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x15bf27410_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x15bf27380_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x15bf27410_0, 0, 1;
+    %delay 10, 0;
+    %vpi_call 2 28 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tb_half_subtractor.v";
+    "half_subtractor.v";

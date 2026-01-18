@@ -1,0 +1,85 @@
+$date
+	Wed Sep 17 23:41:48 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_nor_gates $end
+$var wire 1 ! y_xor $end
+$var wire 1 " y_xnor $end
+$var wire 1 # y_or $end
+$var wire 1 $ y_not $end
+$var wire 1 % y_nand $end
+$var wire 1 & y_and $end
+$var reg 1 ' a $end
+$var reg 1 ( b $end
+$var integer 32 ) i [31:0] $end
+$scope module u1 $end
+$var wire 1 ' a $end
+$var reg 1 $ y $end
+$upscope $end
+$scope module u2 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var reg 1 # y $end
+$upscope $end
+$scope module u3 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var reg 1 & y $end
+$upscope $end
+$scope module u4 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var reg 1 % y $end
+$upscope $end
+$scope module u5 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var reg 1 ! y $end
+$upscope $end
+$scope module u6 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var reg 1 " y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 )
+0(
+0'
+0&
+1%
+1$
+0#
+1"
+0!
+$end
+#10000
+1#
+1!
+0"
+1(
+b1 )
+#20000
+0$
+1'
+0(
+b10 )
+#30000
+1&
+0%
+0!
+1"
+1(
+b11 )
+#40000
+b100 )

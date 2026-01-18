@@ -1,0 +1,1280 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Sawarabi+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Sawarabi Gothic", sans-serif; */
+/* font-family: "Geologica", sans-serif; */
+/* font-family: "Montserrat", sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primaryFont: "Sawarabi Gothic", sans-serif;
+    --logoFont: "Geologica", sans-serif;
+    --montsFont: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+nav{
+    background-color: #000000;
+    color: white;
+    height: 62px;
+    border-bottom: 1px solid #3b4149;
+}
+
+.navItems{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navItems > span{
+    font-family: var(--logoFont);
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.com{
+    font-family: var(--logoFont);
+    font-weight: 300;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.navli{
+    display: flex;
+    list-style-type: none;
+    gap: 19px;
+    justify-content: center;
+    align-items: center;
+    /* transition: color .15s ease; */
+}
+
+.navli > li > a{
+    font-family: var(--primaryFont);
+    font-size: 14px;
+    color: #a6acb6;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navli > li > a:hover{
+    color: white;
+}
+
+.resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 149px;
+    background-color: rgb(28, 232, 255);
+    border-radius: 4px;
+    color: black;
+    font-size: 14.9px;
+    font-family: var(--logoFont);
+    gap: 14px;
+    padding-top: 2px;
+}
+
+.navli a{
+    text-decoration: none;
+}
+
+.resume img{
+    padding-top: 4px;
+    width: 21px;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9vh;
+    gap: 27px;
+}
+
+.myimage{
+    height: 199px;
+    width: 199px;
+    border: 2px solid white;
+    border-radius: 99px;
+    /* background-color: white; */
+}
+.myimage img{
+    object-fit: contain;
+    height: 199px;
+    width: 199px;
+    border-radius: 99px;
+    object-position: center;
+}
+
+.intro-hi{
+    color: white;
+    font-family: var(--logoFont);
+    font-size: 32px;
+}
+
+.intro-hi span{
+    /* color: white; */
+    font-family: var(--montsFont);
+    font-size: 40px;
+
+    background-image: linear-gradient(180deg,#fff,#c6c6c6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.introbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introLineBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 879px;
+    /* background-color: rgb(139, 133, 133); */
+    margin-left: 17px;
+    margin-top: 14vh;
+}
+
+.currentInfo{
+    color: rgb(184, 177, 177);
+    width: 100%;
+    text-align: center;
+    font-family: var(--montsFont);
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 4vh;
+}
+
+.introLine{
+    font-family: var(--montsFont);
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+}
+.introLine > span{
+    background-image: linear-gradient(180deg,#fff,#adadad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+  
+
+
+/* ----------------------------------------------------------------------------------------------- */
+.techStack{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* width: 100%; */
+    background-color: #000000;
+    border-top: 1px solid #585757;
+    margin-top: 12vh;
+    margin-bottom: 4vh;
+    padding-left: 29px;
+    padding-right: 29px;
+}
+
+.techStackHeading, .projectSectionHeading, .experienceSectionHeading, .aboutMeHeading, .socialsHeading, .workExperienceSectionHeading{
+    font-family: var(--montsFont);
+    font-size: 34px;
+    font-weight: 800;
+    background-image: linear-gradient(180deg,#fff,#adadad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 7vh;
+    margin-bottom: 9vh;
+}
+
+.techStackBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+.tbox{
+    border: 2px solid #4f555e;
+    border-radius: 9px;
+    height: 129px;
+    width: 229px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tibox{
+    border-radius: 4px;
+    height: 124px;
+    width: 224px;
+    background: linear-gradient(180deg, #242424, #121212 65.62%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tibox:hover{
+    background: linear-gradient(180deg, #242424, #000000 65.62%);
+}
+
+.tibox > img{
+    height: 69px;
+}
+
+.flimg > img{
+    height: 51px;
+}
+
+.nextimg > img{
+    height: 99px;
+    filter: invert(1);
+}
+
+.tibox > span{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: var(--primaryFont);
+}
+
+.techStackBoxDev{
+    margin-top: 4vh;
+}
+
+.android_studio, .github, .linux{
+    font-family: var(--logoFont);
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.android_studio_img > img{
+    height: 99px;
+}
+
+.github{
+    font-size: 27px;
+}
+
+.linux{
+    font-size: 29px;
+}
+
+.techStackBoxTools{
+    margin-top: 4vh;
+}
+
+.dsabox{
+    border: 2px solid #4f555e;
+    border-radius: 7px;
+    height: 129px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+}
+
+.dsaibox{
+    border-radius: 4px;
+    height: 124px;
+    background: linear-gradient(180deg, #242424, #121212 65.62%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 19px;
+    gap: 14px;
+}
+
+.dsaibox:hover{
+    background: linear-gradient(180deg, #242424, #000000 65.62%);
+}
+
+.dsa{
+    color: white;
+    font-size: 29px;
+    font-family: var(--logoFont);
+    font-weight: 500;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+.projectSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #1a1a1a;
+    border-top: 1px solid #585757;
+    margin-top: 90px;
+    padding-bottom: 89px;
+    /* height: 190vh; */
+}
+
+.projectBox{
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    place-items: center;
+    row-gap: 29px;
+}
+
+.projectCard{
+    width: 490px;
+    /* height: 319px; */
+    /* min-height: 199px; */
+    border-radius: 14px;
+    background-color: black;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectCard > img{
+    width: 490px;
+    border-radius: 14px;
+}
+
+.projectCard > p{
+    color: rgb(181, 181, 181);
+    font-family: var(--montsFont);
+    font-weight: 500;
+    margin: 0 14px;
+    text-align: center;
+}
+
+.getItOnPlay{
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 19px;
+    /* flex-wrap: wrap; */
+}
+
+.getItOnPlay img{
+    width: 170px;
+    margin-right: 20px;
+}
+.getItOnPlay div{
+    margin-left: 20px;
+}
+.getItOnPlay span{
+    width: 40px;
+    border: 1px solid rgb(131, 131, 131);
+    padding: 4px 9px;
+    color: white;
+    border-radius: 9px;
+    margin-right: 7px;
+    font-family: var(--montsFont);
+    font-size: 14px;
+}
+
+.projectCard > .head{
+    color: white;
+    font-family: var(--montsFont);
+    font-size: 27px;
+    font-weight: 600;
+    margin: 0px 14px; 
+    margin-top: 19px;
+    margin-bottom: 17px;
+}
+
+.getItOnPlay > a > span{
+    width: 40px;
+    height: 20px;
+    color: white;
+    font-weight: 500;
+    font-family: var(--montsFont);
+    background-color: rgb(14, 163, 193);
+    border-radius: 7px;
+    border: none;
+    padding: 7px 12px;
+}
+
+.getItOnPlay > a{
+    text-decoration: none;
+}
+
+.projectCardWeb{
+    justify-content: start;
+    padding-bottom: 19px;
+}
+
+.webProject{
+    margin-top: 47px;
+}
+
+.webProject > a > span{
+    margin-right: 19px;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+.workExperienceSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #000000;
+    border-top: 1px solid #585757;
+    margin-bottom: 7vh;
+    /* padding-bottom: 14vh; */
+}
+
+.workExperienceBox{
+    width: 70vw;
+    border: 2px solid #4f555e;
+    border-radius: 9px;
+    display: grid;
+    grid-template-columns: 76% 24%;
+    margin-bottom: 7vh;
+}
+
+.workExperienceBox1{
+    margin-top: 2.9vh;
+}
+
+.workExperienceBoxP1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 24px;
+    padding-right: 40px;
+}
+
+.workExperienceBoxP2{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workExperienceBoxP2 > img{
+    width: 100%;
+    border-radius: 7px;
+    /* border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px; */
+}
+
+.workExperienceBoxP1 > .head1{
+    font-family: var(--montsFont);
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+.workExperienceBoxP1 > .head2{
+    font-family: var(--montsFont);
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 19px;
+    margin-top: 2px;
+} 
+.workExperienceBoxP1 > .head3{
+    font-family: var(--montsFont);
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 19px;
+    margin-top: 7px;
+}
+.workExperienceBoxP1 > .desc{
+    font-family: var(--montsFont);
+    color: rgb(149, 149, 149);
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 7px;
+    text-align: justify;
+} 
+
+
+.workExperienceBox2{
+    grid-template-columns: 36% 37% 27%;
+}
+.workExperienceBoxP3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.workExperienceBoxP3 > video{
+    width: 100%;
+    border-radius: 7px;
+}
+.workExperienceBox2 > .experienceBoxP1{
+    padding-right: 40px;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+.experienceSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #000000;
+    border-top: 1px solid #585757;
+    margin-bottom: 7vh;
+    /* padding-bottom: 14vh; */
+}
+
+.experienceBox{
+    width: 80vw;
+    border: 2px solid #4f555e;
+    border-radius: 9px;
+    display: grid;
+    grid-template-columns: 54% 46%;
+    margin-bottom: 7vh;
+}
+
+.experienceBox1{
+    margin-top: 2.9vh;
+}
+
+.experienceBoxP1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 24px;
+    padding-right: 40px;
+}
+
+.experienceBoxP2{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experienceBoxP2 > img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.experienceBoxP1 > .head1{
+    font-family: var(--montsFont);
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+.experienceBoxP1 > .head2{
+    font-family: var(--montsFont);
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 19px;
+    margin-top: 2px;
+} 
+.experienceBoxP1 > .desc{
+    font-family: var(--montsFont);
+    color: rgb(149, 149, 149);
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 7px;
+    text-align: justify;
+} 
+
+
+.experienceBox2{
+    width: 80vw;
+    border: 2px solid #4f555e;
+    border-radius: 9px;
+    display: grid;
+    margin-bottom: 7vh;
+    grid-template-columns: 36% 37% 27%;
+}
+.experienceBoxP3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experienceBoxP3 > video{
+    width: 100%;
+    border-radius: 7px;
+}
+.experienceBox2 > .experienceBoxP1{
+    padding-right: 40px;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #1a1a1a;
+    border-top: 1px solid #585757;
+    padding-bottom: 20vh;
+}
+
+.aboutMeP1{
+    /* border: 2px solid #4f555e; */
+    background-color: black;
+    border-radius: 9px;
+    padding: 19px 40px;
+    width: 80vw;
+    height: fit-content;
+
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ##################### */
+
+.aboutMeP1::before{
+    content: "";
+    background-image: conic-gradient(
+        rgb(0, 234, 255) 20deg,
+        transparent 120deg
+    );
+    width: 160%;
+    height: 299%;
+    position: absolute;
+    animation: rotate 7s linear infinite;
+}
+
+.aboutMeP1::after{
+    content: "I am a 22-year-old enthusiast deeply passionate about technology, currently pursuing my 1st year of MCA at IIIT-Vadodara.\A\AHaving experience in multiple programming languages, I enjoy coding and crafting both Websites and Mobile Apps, Problem-solving is at the heart of my endeavors.\A\AWhen I'm not glued to my screen, you'll find me at the gym, lifting weights and pushing my fitness limits. Technology and fitness are my Worlds, and I'm always ready for the next challenge";
+    white-space: pre-wrap;
+    background: black;
+    width: 99.7%;
+    height: 99%;
+    position: absolute;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(198, 196, 196);
+    font-family: var(--primaryFont);
+    font-weight: 400;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 24px 40px;
+    text-align: center;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+/* ##################### */
+
+.aboutMeP1 > .aboutMeIntro{
+    color: rgb(178, 178, 178);
+    font-family: var(--primaryFont);
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 9px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9vw;
+    background-color: rgb(37 38 38);
+    border-radius: 14px;
+    padding: 24px 40px;
+}
+
+#twitterlogo{
+    width: 140px;
+}
+#githublogo{
+    width: 109px;
+    border-radius: 50%;
+}
+#ytlogo{
+    width: 99px;
+}
+#linklogo{
+    width: 119px;
+}
+#iglogo{
+    width: 90px;
+}
+#leetcodelogo{
+    width: 99px;
+}
+
+.socialsHeading{
+    margin-top: 12vh;
+}
+
+.footertext{
+    color: rgb(199, 199, 199);
+    font-family: var(--montsFont);
+    text-align: center;
+    padding-bottom: 2vh;
+    background-color: #1a1a1a;
+    width: 100%;
+}
+
+.contactme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37 38 38);
+    border-radius: 14px;
+    padding: 14px 29px;
+    margin-top: 4vh;
+    color: white;
+    font-family: var(--logoFont);
+    gap: 29px;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    border-radius: 9px;
+    padding: 9px 14px;
+}
+.email:hover{
+    background-color: rgb(30, 30, 30);
+}
+
+.email img{
+    width: 40px;
+    filter: invert(1);
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    border-radius: 9px;
+    padding: 9px 14px;
+}
+
+.phone:hover{
+    background-color: rgb(30, 30, 30);
+}
+.phone img{
+    width: 29px;
+    filter: invert(1);
+    padding-bottom: 5px;
+}
+
+#yotubeRR > iframe{
+    width: 560px;
+    height: 315px;
+    border: 2px solid white;
+    border-radius: 19px;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  R E S P O N S I V E N E S S  ############################### */
+
+@media screen and (max-width: 699px){
+    #yotubeRR > iframe{
+        width: 80vw;
+        height: 49vw;
+        border: 2px solid white;
+        border-radius: 19px;
+        margin-top: 2.9vh;
+        margin-bottom: 6vh;
+    }
+}
+
+@media screen and (max-width: 1299px){
+    
+    .projectBox{
+        grid-template-columns: 80vw;
+        row-gap: 29px;
+    }
+    .projectCard{
+        width: 690px;
+    }
+    .projectCard > img{
+        width: 100%;
+    }
+    .projectCard > .head {
+        font-size: 29px;
+        margin-top: 19px;
+    }
+    .getItOnPlay{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .getItOnPlay img{
+        width: 190px;
+        margin-right: 20px;
+    }
+    .getItOnPlay span{
+        font-size: 16px;
+    }
+    .webProject{
+        margin-top: 77px;
+    }
+}
+
+
+@media screen and (max-width: 940px) {
+    .navItems > span{
+        font-size: 12px;
+    }
+    .com{
+        font-size: 8px;
+    }
+    .mobLi{
+        font-size: 0px;
+    }
+    .navli > li > a{
+        font-size: 0px;
+    }
+    .navItems{
+        padding-left: 4vw;
+        padding-right: 4vw;
+        justify-content: space-around;
+    }
+    .resume{
+        height: 36px;
+        width: 119px;
+        color: black;
+        font-size: 11px;
+        gap: 11px;
+    }
+    .resume img{
+        width: 21px;
+    }
+    .myimage{
+        height: 109px;
+        width: 109px;
+        border: 1px solid white;
+        border-radius: 59px;
+    }
+    .myimage img{
+        height: 109px;
+        width: 109px;
+        border-radius: 59px;
+    }
+    .intro{
+        margin-top: 7vh;
+        gap: 24px;
+    }
+    .intro-hi{
+        font-size: 19px;
+    }
+    .intro-hi span{
+        font-size: 19px;
+    }
+    .introLineBox{
+        text-align: center;
+        width: 90vw;
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-top: 9vh;
+    }
+    .currentInfo{
+        font-size: 8px;
+        margin-top: 4vh;
+    }
+    .introLine{
+        font-size: 40px;
+        font-weight: 800;
+        color: white;
+    }
+    .techStackHeading, .projectSectionHeading, .experienceSectionHeading, .workExperienceSectionHeading, .aboutMeHeading, .socialsHeading{
+        font-size: 21px;
+        margin-top: 4vh;
+        margin-bottom: 44px;
+    }
+    .techStackBox{
+        gap: 19px;
+    }
+    .tbox{
+        border: 2px solid #4f555e;
+        border-radius: 7px;
+        height: 60px;
+        width: 129px;
+    }
+    .tibox{
+        border-radius: 5px;
+        height: 60px;
+        width: 129px;
+    }
+    .tibox > img{
+        height: 29px;
+    }
+    .flimg > img{
+        height: 29px;
+    }
+    .nextimg > img{
+        height: 49px;
+    }
+    .tibox > span{
+        font-size: 19px;
+    }
+    .techStackBoxDev{
+        margin-top: 4vh;
+    }  
+    .techStackBoxDev{
+        margin-top: 4vh;
+    }
+    .android_studio{
+        font-size: 14px;
+    }
+    .android_studio_img > img{
+        height: 49px;
+    }
+    .github{
+        font-size: 17px;
+    }
+    .linux{
+        font-size: 19px;
+    }
+    .dsabox{
+        height: fit-content;
+        margin-top: 4vh;
+        width: fit-content;
+    }
+    .dsaibox{
+        height: 100%;
+        padding: 14px 19px;
+        gap: 14px;
+    }
+    .dsa{
+        font-size: 14px;
+    }
+    .projectBox{
+        grid-template-columns: 100vw;
+        row-gap: 29px;
+    }
+    .projectCard{
+        width: 87vw;
+        min-height: 99px;
+        border-radius: 14px;
+    }
+    .projectCard > img{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .projectCard > p{
+        font-size: 14px;
+    }
+    .getItOnPlay{
+        width: 100%;
+    }
+    .getItOnPlay img{
+        width: 129px;
+        margin-right: 9px;
+    }
+    .getItOnPlay div{
+        margin-left: 9px;
+    }
+    .getItOnPlay span{
+        width: 27px;
+        margin-right: 4px;
+        font-size:12px;
+    }
+    
+    /* --------------------------------- */
+    .projectCard > .head{
+        font-size: 19px;
+        margin: 0px 7px; 
+        margin-top: 17px;
+        margin-bottom: 14px;
+    }
+    /* .projectCardWeb > .webProject > .tech > span{
+        font-size: 12px;
+    } */
+
+    .webProject{
+        margin-top: 47px;
+        display: flex;
+        flex-direction: column;
+    }
+    .webProject a{
+        margin-top: 20px;
+    }
+    .webProject > a > span {
+        margin-right: 0px;
+        width: 40px;
+        height: 20px;
+        padding: 7px 12px;
+    }
+
+    /* --------------------------------- */
+
+    .workExperienceBox{
+        width: 80vw;
+        grid-template-columns: 100% 0%;
+    }
+    .workExperienceBoxP1 > .head1{
+        font-size: 19px;
+    }
+    .workExperienceBoxP1 > .head2{
+        font-size: 12px;
+        margin-bottom: 9px;
+    } 
+    .workExperienceBoxP1 > .head3{
+        font-size: 11px;
+        margin-bottom: 9px;
+    }
+
+    /* --------------------------------- */
+
+    .experienceBox1{
+        grid-template-columns: 100%;
+    }
+    .experienceBoxP1{
+        padding-top: 14px;
+        padding-bottom: 9px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .experienceBoxP2{
+        border-radius: 7px;
+    }
+    
+    .experienceBoxP2 > img{
+        width: 100%;
+        border-radius: 7px;
+    }
+    .experienceBox1{
+        margin-top: 9px;
+    }
+    .experienceBox1 > .experienceBoxP2 > img{
+        border-top: 2px solid #4f555e;
+        border-left: 2px solid #4f555e;
+        border-right: 2px solid #4f555e;
+    }
+    .experienceBoxP1 > .head1{
+        font-size: 19px;
+    }
+    .experienceBoxP1 > .head2{
+        font-size: 12px;
+        margin-bottom: 19px;
+        margin-top: 4px;
+    } 
+    .experienceBoxP1 > .desc{
+        font-size: 14px;
+        margin-bottom: 7px;
+        text-align: left;
+    } 
+    .experienceSection{
+        margin-bottom: 4vh;
+    }
+
+
+    
+    .aboutMeP1{
+        padding: 9px 14px;
+        width: 80%;
+        height: fit-content;
+    }
+    .aboutMeP1 > .aboutMeIntro{
+        font-weight: 400;
+        font-size: 12px;
+        margin-bottom: 9px;
+    }
+    .aboutMeP1::before{
+        width: 160%;
+        height: 709%;
+        animation: rotate 7s linear infinite;
+    }
+    .aboutMeP1::after{
+        width: 99.6%;
+        height: 99.6%;
+        font-weight: 400;
+        font-size: 12px;
+        padding: 9px 14px;
+        text-align: justify;
+    }
+
+
+    .socials{
+        gap: 2.7vw;
+        padding: 14px 24px;
+    }
+    #twitterlogo{
+        width: 77px;
+    }
+    #linklogo{
+        width: 60px;
+    }
+    #iglogo{
+        width: 47px;
+    }
+    #githublogo{
+        width: 56px;
+    }
+    #leetcodelogo{
+        width: 52px;
+        margin-top: 9px;
+    }
+    .socialsHeading{
+        margin-top: 9vh;
+    }
+    .contactme{
+        flex-direction: column;
+        padding: 14px 29px;
+        margin-top: 4vh;
+        gap: 9px;
+    }
+    .email{
+        gap: 9px;
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+    .email img{
+        width: 24px;
+        filter: invert(1);
+    }
+    .phone{
+        gap: 9px;
+        padding: 9px 14px;
+        font-size: 14px;
+    }
+    .phone img{
+        width: 19px;
+        padding-bottom: 3px;
+        padding-right: 1px;
+    }
+    .footertext{
+        padding-bottom: 2vh;
+        width: 100%;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1149px) {
+    /* THIS MQ IS SPECIALLY FOR "WORKSHOP ON FLUTTER BLOCK" */
+    .experienceBox2{
+        grid-template-columns: 0.1% 80% 19.9%;
+    }
+}
+@media screen and (max-width: 1009px) {
+    /* THIS MQ IS SPECIALLY FOR "WORKSHOP ON FLUTTER BLOCK" */
+    .experienceBox2{
+        grid-template-columns: 40% 59.9% 0.1%;
+    }
+}
+@media screen and (max-width: 770px) {
+    /* THIS MQ IS SPECIALLY FOR "WORKSHOP ON FLUTTER BLOCK" */
+    .experienceBox2{
+        grid-template-columns: 0.1% 99.8% 0.1%;
+    }
+}
+@media screen and (max-width: 540px) {
+    /* THIS MQ IS SPECIALLY FOR "WORKSHOP ON FLUTTER BLOCK" */
+    .experienceBox2{
+        grid-template-columns: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* box-shadow: 16px 14px 20px black;   */
+
+
+/* ############ Moving Line Animation ############# */
+
+/* .experienceBoxP2 > div{
+    width: 97%;
+    height: 88%;
+        box-shadow: 0px 0px 19px rgb(142, 142, 142);
+    border-radius: 9px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experienceBoxP2 > div::before{
+    content: "";
+    background-image: conic-gradient(
+        rgb(0, 234, 255) 20deg,
+        transparent 120deg
+    );
+    width: 160%;
+    height: 299%;
+    position: absolute;
+    animation: rotate 4s linear infinite;
+}
+.experienceBoxP2 > div::after{
+    content: "";
+    color: white;
+    background: black;
+    width: 99.2%;
+    height: 99%;
+    position: absolute;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+} */
+
+/* ######################### */

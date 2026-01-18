@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>January Events</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      font-size: 1em;
+      background: white;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    #outerBox{
+        width: 95%;
+        background-color: #e8e8e8;
+        padding: 7px 0px 29px 0px;
+        margin: auto;
+        margin-top: 14px;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      color: #585959;
+    }
+
+    table {
+      width: 92vw;
+      border-collapse: collapse;
+      margin: auto;
+      background-color: #fff;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 27px 0.5rem;
+      text-align: center;
+    }
+
+    thead th {
+      background-color: darkred;
+      color: white;
+      padding: 24px;
+    }
+
+    tbody td:first-child {
+      background-color: #D3D3D3;
+      width: 15%;
+    }
+
+    tbody td:not(:first-child), 
+    thead th:not(:first-child) {
+      width: calc(85% / 5);
+    }
+
+    .developer > p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #818181;
+        font-size: 24px;
+    }
+
+    @media (max-width: 768px) {
+        table{
+            font-size: 0.8em;
+        }
+        th, td {
+            padding: 17px 0.2rem;
+        }
+        thead th {
+            padding: 17px 0.2em;
+        }
+        h2{
+            font-size: 21px;
+        }
+        .developer > p{
+            font-size: 17px;
+        }
+    }
+
+    @media (max-width: 400px) {
+        table{
+            font-size: 0.4em;
+        }
+        th, td {
+            padding: 12px 0.1rem;
+        }
+        thead th {
+            padding: 12px 0.1em;
+        }
+        h2{
+            font-size: 12px;
+        }
+        .developer > p{
+            font-size: 9px;
+        }
+    }
+
+  </style>
+</head>
+<body>
+  <div id="outerBox">
+    <h2>January Events</h2>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Location</th>
+            <th>Morning</th>
+            <th>Lunch</th>
+            <th>Afternoon</th>
+            <th>Dinner</th>
+            <th>Evening</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>Citycenter</td>
+            <td rowspan="2">Flash Sale</td>
+            <td colspan="3">School Outreach</td>
+            <td rowspan="5">Cooking Class</td>
+        </tr>
+        <tr>
+            <td>West End</td>
+            <td rowspan="2">Build a Pizza</td>
+            <td rowspan="2" colspan="2">Mascot Pictures</td>
+            
+        </tr>
+        <tr>
+            <td>East End</td>
+            <td>Free Samples</td>
+        </tr>
+        <tr>
+            <td>North End</td>
+            <td colspan="2">Flash Sale</td>
+            <td colspan="2">School Outreach</td>
+        </tr>
+        <tr>
+            <td>South End</td>
+            <td colspan="3">Surprise Coupon</td>
+            <td>Free Samples</td>
+        </tr>
+        </tbody>
+    </table>
+
+  </div>
+
+  <br>
+  <br>
+  <div class="developer">
+    <p>Made by Gauraansh Gaur, 20251651039</p>
+  </div>
+
+</body>
+</html>

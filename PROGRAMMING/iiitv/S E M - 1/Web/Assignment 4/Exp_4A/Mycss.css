@@ -1,0 +1,39 @@
+/* 
+    Created on : Nov 14, 2025, 02:50:49 AM
+    Author     : Gauraansh Gaur
+*/
+
+#target {
+    border: 1px solid;
+    width:150px;
+    height:150px;
+    text-align: left;
+}
+
+table, td {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    background-color:#ffffff;
+    border: 1px solid;
+    padding:5px;
+}
+
+.rangeEdges{
+    font-size: 12px;
+}
+
+.rangeBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color:#cccccc;
+}
+
+#sizeValue{
+    font-size: 14px;
+    margin-left: 96px;
+    color: teal;
+}

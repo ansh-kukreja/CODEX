@@ -1,0 +1,125 @@
+#! /opt/homebrew/Cellar/icarus-verilog/12.0/bin/vvp
+:ivl_version "12.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/system.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/v2005_math.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/va_math.vpi";
+S_0x13b710070 .scope module, "tb_half_adder" "tb_half_adder" 2 1;
+ .timescale 0 0;
+v0x13b726a10_0 .var "a", 0 0;
+v0x13b726aa0_0 .var "b", 0 0;
+v0x13b726b30_0 .net "carry_direct", 0 0, L_0x13b727100;  1 drivers
+RS_0x140040280 .resolv tri, L_0x13b7271e0, L_0x13b7278c0;
+v0x13b726bc0_0 .net8 "carry_nand", 0 0, RS_0x140040280;  2 drivers
+v0x13b726c50_0 .net "carry_nor", 0 0, L_0x13b727db0;  1 drivers
+v0x13b726d20_0 .net "sum_direct", 0 0, L_0x13b726f30;  1 drivers
+v0x13b726dd0_0 .net "sum_nand", 0 0, L_0x13b727710;  1 drivers
+v0x13b726e80_0 .net "sum_nor", 0 0, L_0x13b728280;  1 drivers
+S_0x13b705520 .scope module, "ha1" "half_adder" 2 8, 3 2 0, S_0x13b710070;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "sum";
+    .port_info 3 /OUTPUT 1 "carry";
+L_0x13b726f30 .functor XOR 1, v0x13b726a10_0, v0x13b726aa0_0, C4<0>, C4<0>;
+L_0x13b727100 .functor AND 1, v0x13b726a10_0, v0x13b726aa0_0, C4<1>, C4<1>;
+v0x13b709370_0 .net "a", 0 0, v0x13b726a10_0;  1 drivers
+v0x13b725100_0 .net "b", 0 0, v0x13b726aa0_0;  1 drivers
+v0x13b7251a0_0 .net "carry", 0 0, L_0x13b727100;  alias, 1 drivers
+v0x13b725250_0 .net "sum", 0 0, L_0x13b726f30;  alias, 1 drivers
+S_0x13b725350 .scope module, "ha2" "half_adder_nand" 2 9, 3 11 0, S_0x13b710070;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "sum";
+    .port_info 3 /OUTPUT 1 "carry";
+L_0x13b727170 .functor AND 1, v0x13b726a10_0, v0x13b726aa0_0, C4<1>, C4<1>;
+L_0x13b7271e0 .functor NOT 1, L_0x13b727170, C4<0>, C4<0>, C4<0>;
+L_0x13b7272d0 .functor AND 1, v0x13b726a10_0, RS_0x140040280, C4<1>, C4<1>;
+L_0x13b727340 .functor NOT 1, L_0x13b7272d0, C4<0>, C4<0>, C4<0>;
+L_0x13b727410 .functor AND 1, v0x13b726aa0_0, RS_0x140040280, C4<1>, C4<1>;
+L_0x13b727550 .functor NOT 1, L_0x13b727410, C4<0>, C4<0>, C4<0>;
+L_0x13b7275c0 .functor AND 1, L_0x13b727340, L_0x13b727550, C4<1>, C4<1>;
+L_0x13b727710 .functor NOT 1, L_0x13b7275c0, C4<0>, C4<0>, C4<0>;
+L_0x13b727800 .functor AND 1, RS_0x140040280, RS_0x140040280, C4<1>, C4<1>;
+L_0x13b7278c0 .functor NOT 1, L_0x13b727800, C4<0>, C4<0>, C4<0>;
+v0x13b725580_0 .net *"_ivl_0", 0 0, L_0x13b727170;  1 drivers
+v0x13b725630_0 .net *"_ivl_12", 0 0, L_0x13b7275c0;  1 drivers
+v0x13b7256e0_0 .net *"_ivl_16", 0 0, L_0x13b727800;  1 drivers
+v0x13b7257a0_0 .net *"_ivl_4", 0 0, L_0x13b7272d0;  1 drivers
+v0x13b725850_0 .net *"_ivl_8", 0 0, L_0x13b727410;  1 drivers
+v0x13b725940_0 .net "a", 0 0, v0x13b726a10_0;  alias, 1 drivers
+v0x13b7259d0_0 .net "b", 0 0, v0x13b726aa0_0;  alias, 1 drivers
+v0x13b725a80_0 .net8 "carry", 0 0, RS_0x140040280;  alias, 2 drivers
+v0x13b725b10_0 .net "sum", 0 0, L_0x13b727710;  alias, 1 drivers
+v0x13b725c20_0 .net "t1", 0 0, L_0x13b727340;  1 drivers
+v0x13b725cc0_0 .net "t2", 0 0, L_0x13b727550;  1 drivers
+S_0x13b725dc0 .scope module, "ha3" "half_adder_nor" 2 10, 3 25 0, S_0x13b710070;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /OUTPUT 1 "sum";
+    .port_info 3 /OUTPUT 1 "carry";
+L_0x13b727930 .functor OR 1, v0x13b726a10_0, v0x13b726a10_0, C4<0>, C4<0>;
+L_0x13b727aa0 .functor NOT 1, L_0x13b727930, C4<0>, C4<0>, C4<0>;
+L_0x13b727b10 .functor OR 1, v0x13b726aa0_0, v0x13b726aa0_0, C4<0>, C4<0>;
+L_0x13b727040 .functor NOT 1, L_0x13b727b10, C4<0>, C4<0>, C4<0>;
+L_0x13b727cc0 .functor OR 1, L_0x13b727aa0, L_0x13b727040, C4<0>, C4<0>;
+L_0x13b727db0 .functor NOT 1, L_0x13b727cc0, C4<0>, C4<0>, C4<0>;
+L_0x13b727ea0 .functor OR 1, v0x13b726a10_0, L_0x13b727040, C4<0>, C4<0>;
+L_0x13b727f50 .functor NOT 1, L_0x13b727ea0, C4<0>, C4<0>, C4<0>;
+L_0x13b728000 .functor OR 1, L_0x13b727aa0, v0x13b726aa0_0, C4<0>, C4<0>;
+L_0x13b7280c0 .functor NOT 1, L_0x13b728000, C4<0>, C4<0>, C4<0>;
+L_0x13b728130 .functor OR 1, L_0x13b727f50, L_0x13b7280c0, C4<0>, C4<0>;
+L_0x13b728280 .functor NOT 1, L_0x13b728130, C4<0>, C4<0>, C4<0>;
+v0x13b725fe0_0 .net *"_ivl_0", 0 0, L_0x13b727930;  1 drivers
+v0x13b726070_0 .net *"_ivl_12", 0 0, L_0x13b727ea0;  1 drivers
+v0x13b726120_0 .net *"_ivl_16", 0 0, L_0x13b728000;  1 drivers
+v0x13b7261e0_0 .net *"_ivl_20", 0 0, L_0x13b728130;  1 drivers
+v0x13b726290_0 .net *"_ivl_4", 0 0, L_0x13b727b10;  1 drivers
+v0x13b726380_0 .net *"_ivl_8", 0 0, L_0x13b727cc0;  1 drivers
+v0x13b726430_0 .net "a", 0 0, v0x13b726a10_0;  alias, 1 drivers
+v0x13b726500_0 .net "b", 0 0, v0x13b726aa0_0;  alias, 1 drivers
+v0x13b7265d0_0 .net "carry", 0 0, L_0x13b727db0;  alias, 1 drivers
+v0x13b7266e0_0 .net "nota", 0 0, L_0x13b727aa0;  1 drivers
+v0x13b726770_0 .net "notb", 0 0, L_0x13b727040;  1 drivers
+v0x13b726800_0 .net "sum", 0 0, L_0x13b728280;  alias, 1 drivers
+v0x13b726890_0 .net "t1", 0 0, L_0x13b727f50;  1 drivers
+v0x13b726920_0 .net "t2", 0 0, L_0x13b7280c0;  1 drivers
+    .scope S_0x13b710070;
+T_0 ;
+    %vpi_call 2 13 "$dumpfile", "dump.vcd" {0 0 0};
+    %vpi_call 2 14 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x13b710070 {0 0 0};
+    %vpi_call 2 16 "$monitor", "Time=%0t | a=%b b=%b || Direct: Sum=%b Carry=%b || NAND: Sum=%b Carry=%b || NOR: Sum=%b Carry=%b", $time, v0x13b726a10_0, v0x13b726aa0_0, v0x13b726d20_0, v0x13b726b30_0, v0x13b726dd0_0, v0x13b726bc0_0, v0x13b726e80_0, v0x13b726c50_0 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x13b726a10_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x13b726aa0_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x13b726a10_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x13b726aa0_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x13b726a10_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x13b726aa0_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x13b726a10_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x13b726aa0_0, 0, 1;
+    %delay 10, 0;
+    %vpi_call 2 28 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tb_half_adder.v";
+    "half_adder.v";

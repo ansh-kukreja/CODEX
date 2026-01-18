@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 2</title>
+  <style>
+    body {
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .box {
+      display: flex;
+      height: 29px;
+      background-color: green;
+      border-radius: 4px;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #red_box1 {
+      background-color: red;
+      flex: 1;
+      border-radius: 4px;
+    }
+    #blue_box1 {
+      background-color: blue;
+      flex: 1;
+      border-radius: 4px;
+    }
+    
+    #blue_box2, #blue_box3, #blue_box4 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 40px;
+        background-color: blue;
+        border-radius: 4px;
+    }
+    #red_box3 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 40px;
+        background-color: red;
+        border-radius: 4px;
+    }
+    #red_box4 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: red;
+        border-radius: 4px;
+    }
+    #red_box5 {
+        position: absolute;
+        left: 48.5%;
+        top: 10%;
+        height: 80%;
+        width: 40px;
+        background-color: red;
+        border-radius: 4px;
+    }
+    #left_red_box6, #right_red_box6 {
+      background-color: red;
+      flex: 1;
+    }
+    #blue_box6 {
+      background-color: blue;
+      width: 40px;
+    }
+    #red_box7 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 40px;
+        background-color: red;
+        border-radius: 4px;
+    }
+    #column_box7 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    #column_box7 > div {
+        flex: 1;        
+        width: 100%;  
+    }
+    .blue1_box7 {
+        background-color: blue;
+    }
+    .empty_box7 {
+        background-color: transparent;
+    }
+    .blue2_box7 {
+        background-color: blue;
+    }
+    .box8_split{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;           
+        height: 100%;
+        width: 100%;
+    }
+    .orange_box8{
+        width: 40px;
+        height: 100%;
+        background-color: orange;
+    }
+    .box9_split{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;           
+        height: 100%;
+        width: 100%;
+        background-color: orange;
+    }
+    .green_box9{
+        width: 14px;
+        height: 100%;
+        background-color: green;
+    }
+
+    .myDetails{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    h1{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="myDetails">
+    <h1><i>Submitted by: &nbsp; Gauraansh Gaur 20251651039</i></h1>
+  </div>
+  <br>
+
+  <div class="container">
+
+    <div class="box">
+        <div id="red_box1"></div>
+        <div id="blue_box1"></div>
+    </div>
+
+    <div class="box">
+        <div id="blue_box2"></div>
+    </div>
+
+    <div class="box">
+        <div id="red_box3"></div>
+        <div id="blue_box3"></div>
+    </div>
+
+    <div class="box">
+        <div id="red_box4"></div>
+        <div id="blue_box4"></div>
+    </div>
+
+    <div class="box">
+        <div id="red_box5"></div>
+    </div>
+
+    <div class="box">
+        <div id="left_red_box6"></div>
+        <div id="blue_box6"></div>
+        <div id="right_red_box6"></div>
+    </div>
+
+    <div class="box">
+        <div id="red_box7"></div>
+        <div id="column_box7">
+            <div class="blue1_box7"></div>
+            <div class="empty_box7"></div>
+            <div class="blue2_box7"></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box8_split">
+            <div class="orange_box8"></div>
+            <div class="orange_box8"></div>
+            <div class="orange_box8"></div>
+            <div class="orange_box8"></div>
+            <div class="orange_box8"></div>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="box9_split">
+            <div class="green_box9"></div>
+            <div class="green_box9"></div>
+            <div class="green_box9"></div>
+            <div class="green_box9"></div>
+            <div class="green_box9"></div>
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+.box{
+    height: 100px;
+    width: 299px;
+    color: white;
+    text-align: center;
+    padding: 9px;
+    background-color: rgb(167, 55, 247);
+
+    animation-name: allInOneAnimation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+
+@keyframes allInOneAnimation{
+    0%{
+        font-size: 20px;
+        background-color: #a60000de;
+        width: 299px;
+        height: 100px;
+        border-radius: 19px;
+        margin-left: 0px;
+    }
+    50%{
+        border-radius: 50%;
+        height: 499px;
+        width: 499px;
+    }
+    75%{
+        margin-left: 20px;
+        border-radius: 50%;
+        height: 199px;
+        width: 199px;
+    }
+    100%{
+        font-size: 40px;
+        background-color: rgb(2, 112, 149);
+        width: 1290px;
+        height: 499px;
+        border-radius: 0px;
+        margin-left: 90px;
+    }
+}
+
+@keyframes fontAnimation{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+
+@keyframes colorAnimation{
+    from{
+        background-color: #a60000de;
+    }
+    to{
+        background-color: rgb(2, 112, 149);
+    }
+} 
+
+@keyframes widthHeightAnimation{
+    from{
+        width: 299px;
+        height: 100px;
+    }
+    to{
+        width: 899px;
+        height: 299px;
+    }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Annual Tech Fest</title>
+    
+</head>
+<body>
+    <header>
+        <h1>IIITV Annual Tech Fest 2025</h1>
+        <p>Join the event now!</p>
+    </header>
+
+    <!-- Navbar Items -->
+    <nav>
+        <a href="./home.html">Home</a>
+        <a href="./events.html">Events</a>
+        <a href="./index.html">Registration</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+
+    <!-- Registration Form -->
+    <div class="container">
+        <h2>Event Registration Form</h2>
+        <form>
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="dept">Department:</label>
+            <select id="dept" name="dept" required>
+                <option value="">--Select Department--</option>
+                <option value="cse">Computer Science</option>
+                <option value="ece">Electronics</option>
+                <option value="me">Mechanical</option>
+                <option value="ce">Civil</option>
+                <option value="ee">Electrical</option>
+            </select>
+
+            <label>Year of Study:</label>
+            <div class="year_radios">
+                <label><input type="radio" name="year" value="1st" required> 1st Year</label>
+                <label><input type="radio" name="year" value="2nd"> 2nd Year</label>
+                <label><input type="radio" name="year" value="3rd"> 3rd Year</label>
+                <label><input type="radio" name="year" value="4th"> 4th Year</label>
+            </div>
+
+            <div class="buttons">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query Demo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      transition: all 0.5s ease;
+    }
+
+    header {
+      padding: 20px;
+      color: white;
+    }
+
+    .container {
+      padding: 40px;
+    }
+
+    /* Laptop */
+    body {
+      background-color: #e82dbf;
+    }
+
+    header {
+      background-color: #cf01a2;
+    }
+
+    .container {
+      color: white;
+      font-size: 1.5em;
+    }
+
+    /* Tablets */
+    @media (max-width: 992px) {
+      body {
+        background-color: #0099cc;
+      }
+
+      header {
+        background-color: #006680;
+      }
+
+      .container {
+        color: black;
+        font-size: 1.3em;
+      }
+    }
+
+    /* Mobile Phones */
+    @media (max-width: 600px) {
+      body {
+        background-color: #ffcc00;
+      }
+
+      header {
+        background-color: #ff9900;
+      }
+
+      .container {
+        color: black;
+        font-size: 1.1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Responsive Design with Media Queries</h1>
+  </header>
+
+  <div class="container">
+    <p>
+      <strong>Large screen:</strong> Pink<br>
+      <strong>Tablet:</strong> Blue<br>
+      <strong>Mobile:</strong> Yellow
+    </p>
+  </div>
+</body>
+</html>

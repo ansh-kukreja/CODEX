@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 20px 0;
+    color: #fff;
+}
+
+.gallery-section {
+    margin-bottom: 40px;
+}
+
+.gallery-section img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+    border: 2px solid white;
+}

@@ -1,0 +1,12 @@
+INORDER Traversal - LNR
+
+PREORDER Traversal - NLR
+
+POSTORDER Traversal - LRN
+
+
+** Mainly There are three Traversals **
+
+1) INORDER, PREORDER, POSTORDER
+2) Level Order
+3) Morris Traversal (Most Important)

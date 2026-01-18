@@ -1,0 +1,4 @@
+Hello this is a sample file.
+It contains multiple words.
+You can use this file to test your C program.
+Counting words is easy with fscanf.

@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader-container {
+    width: 80%;
+    max-width: 600px;
+    height: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.loader-bar {
+    height: 100%;
+    width: 0;
+    background-color: rgb(6, 179, 227);
+    animation: loading 70s linear infinite;
+}
+
+@keyframes loading {
+    0% { width: 0; }
+    50% { width: 100%; }
+    100% { width: 0; }
+}
+
+.loading-text {
+    font-size: 1.2em;
+    color: white;
+}

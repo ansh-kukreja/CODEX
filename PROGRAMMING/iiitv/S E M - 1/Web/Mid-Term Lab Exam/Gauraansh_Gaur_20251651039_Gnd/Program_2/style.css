@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    color: #e0e0e0;
+}
+
+header {
+    text-align: center;
+    background-color: #034f86;
+    color: white;
+    padding: 2rem 1rem;
+    border-bottom: 2px solid #2196f3;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #bbdefb;
+}
+
+
+/* Main Container */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 2.9rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background: #111;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 14px rgba(33, 149, 243, 0.701);
+}
+
+h2 {
+    color: #64b5f6;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.9rem;
+}
+
+/* About Me Section */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 2.7px solid #2196f3;
+}
+
+.about p {
+    line-height: 1.6;
+    color: #ddd;
+}
+
+
+/* Skills Section */
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #0d47a1;
+    margin: 0.5rem 0;
+    padding: 0.6rem;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    transition: background 0.4s;
+}
+
+.skills li:hover {
+    background: #0575d1;
+}
+
+/* Contact Section */
+.contact p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+a {
+    color: #64b5f6;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+
+a:hover {
+    color: #2196f3;
+}
+
+
+/* Responsiveness */
+
+@media (max-width: 800px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .about {
+        text-align: center;
+    }
+}

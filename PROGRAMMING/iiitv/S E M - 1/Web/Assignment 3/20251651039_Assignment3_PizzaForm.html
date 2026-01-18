@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Order Form</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2%;
+    }
+
+    .form-container {
+      border: 2px dashed black;
+      padding: 2%;
+      max-width: 45%;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 2rem;
+      margin-top: 0;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-size: 2em;
+    }
+
+    fieldset {
+      border: 2px solid black;
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+    }
+
+    legend {
+      font-weight: bold;
+    }
+
+    .form-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .form-group label {
+      flex: 1 1 35%;
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .form-group input, 
+    .form-group select, 
+    textarea {
+      flex: 1 1 60%;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+
+    .pizza-options {
+        display: flex;
+        justify-content: space-between;
+        gap: 2%;
+    }
+
+    .pizza-options fieldset {
+      flex: 1 1 45%;
+    }
+
+    textarea {
+      width: 98%;
+      height: 6rem;
+    }
+
+    .form-actions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+
+    .form-actions button {
+      padding: 2px 4px;
+      font-size: 1rem;
+      border: 1px solid black;
+      background: white;
+      cursor: pointer;
+      height: 80px;
+      width: 150px;
+    }
+
+    .form-actions button:hover {
+      background: #f2f2f2;
+    }
+
+    .developer > p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #818181;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* Mobile */
+    @media (max-width: 700px) {
+      .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .form-group label, 
+      .form-group input, 
+      .form-group select {
+        flex: 1 1 100%;
+      }
+
+      .pizza-options {
+        flex-direction: column;
+      }
+
+      .form-actions {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      fieldset {
+        font-size: 12px;
+      }
+      h2 {
+        font-size: 19px;
+         margin-bottom: 1rem;
+      }
+      .form-group label {
+        font-size: 0.8rem;
+      }
+
+      .form-group input, 
+      .form-group select, 
+
+      textarea {
+        font-size: 0.8rem;
+        width: 92%;
+        height: 6rem;
+      }
+
+      .form-actions button {
+        font-size: 0.8rem;
+        padding: 2px 4px;
+        height: 40px;
+        width: 80%;
+      }
+
+      .developer > p{
+        font-size: 14px;
+      }
+    }
+
+    /* Tablet */
+    @media (min-width: 701px) and (max-width: 800px) {
+      .form-container {
+        padding: 3%;
+      }
+
+      fieldset {
+        font-size: 12px;
+      }
+      h2 {
+        font-size: 19px;
+         margin-bottom: 1rem;
+      }
+      .form-group label {
+        font-size: 0.8rem;
+      }
+
+      .form-group input, 
+      .form-group select, 
+      textarea {
+        font-size: 0.8rem;
+      }
+
+      .form-actions button {
+        font-size: 0.8rem;
+      }
+
+      .developer > p{
+        font-size: 14px;
+      }
+    }
+
+    /* Laptop */
+    @media (min-width: 801px) {
+      .form-container {
+        padding: 2%;
+      }
+
+      .form-actions button {
+        font-size: 1.1rem;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Pizza Order Form</h2>
+
+
+    <fieldset>
+      <legend>Ordered by:</legend>
+      <div class="form-group">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname">
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="+91 9999999999">
+      </div>
+      <div class="form-group">
+        <label for="delivery">Delivery Options</label>
+        <select id="delivery" name="delivery">
+          <option value="fast">Regular Delivery</option>
+          <option value="regular">Pickup</option>
+          <option value="express">Uber Eats</option>
+        </select>
+      </div>
+    </fieldset>
+
+
+    <fieldset>
+      <legend>Pizza order</legend>
+      <div class="pizza-options">
+        <fieldset>
+          <legend>Size</legend>
+          <input type="radio" name="size" value="small" id="small">
+          <label for="small">Small</label><br>
+
+          <input type="radio" name="size" value="medium" id="medium" checked>
+          <label for="medium">Medium</label><br>
+
+          <input type="radio" name="size" value="large" id="large">
+          <label for="large">Large</label><br>
+        </fieldset>
+        <fieldset>
+          <legend>Toppings (choose multiple)</legend>
+
+          <input type="checkbox" name="topping" value="pepperoni" id="pepperoni">
+          <label for="pepperoni">Pepperoni</label><br>
+
+          <input type="checkbox" name="topping" value="olives" id="olives">
+          <label for="olives">Olives</label><br>
+
+          <input type="checkbox" name="topping" value="mushrooms" id="mushrooms">
+          <label for="mushrooms">Mushrooms</label><br>
+
+          <input type="checkbox" name="topping" value="peppers" id="peppers">
+          <label for="peppers">Peppers</label><br>
+
+        </fieldset>
+      </div>
+    </fieldset>
+
+    
+    <fieldset>
+      <legend>Please let us know if you have allergies or other considerations</legend>
+      <textarea placeholder="Allergies or other notes"></textarea>
+    </fieldset>
+
+
+    <div class="form-actions">
+      <button type="submit">Order Pizza</button>
+      <button type="reset">Clear Form</button>
+    </div>
+  </div>
+
+  <br><br>
+  <div class="developer">
+    <p>Made by Gauraansh Gaur, 20251651039</p>
+  </div>
+
+</body>
+</html>
