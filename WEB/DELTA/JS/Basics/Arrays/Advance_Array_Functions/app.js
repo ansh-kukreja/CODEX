@@ -38,5 +38,6 @@ console.log(`Even elements in given array : ${evenNums}`);
 
 // -----------------------------------------------------------------------------------------------
 
+// "Every" Method
 
-
+// "Some" Method
