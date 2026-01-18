@@ -121,7 +121,7 @@ let student = {
     avgMarks(){
     //  let avg = (eng + ds + web) / 3;     // ❌ - This will throw error (Not Allowed)
 
-        let avg = (this.eng + this.ds + this.web) / 3;         // ✅ - Use 'This' Keyword
+        let avg = (this.eng + this.ds + this.web) / 3;     // ✅ - Use 'This' Keyword
 
         console.log(avg);
     }
@@ -129,5 +129,37 @@ let student = {
 student.avgMarks();
 
 // ------------------------------------------------------------------------------------------
+
+// Spread function '...'
+
+let obj = {
+    name: "Ansh",
+    age: 22,
+};
+
+let newObj = {...obj,  id: 7081};
+
+console.log(newObj);
+
+// ------------------------------------------------------------------------------------------
+
+// Destructuring of Objects
+
+let student4 = {
+    name: "Ansh",
+    age: 22,
+    phone: 8096500009,
+    id: 7081,
+    state: "Haryana"
+};
+
+let {name, age} = student4;  // Fetching Variables using same keys
+
+let {phone: mobileNumber, id:userId} = student4;  // Fetching Values using keys and saving them in our variables
+
+let {state: stateOfLiving, city: shehar = "Kurukshetra"} = student4;   // Giving Default Values is allowed
+
+// ------------------------------------------------------------------------------------------
+
 
 
