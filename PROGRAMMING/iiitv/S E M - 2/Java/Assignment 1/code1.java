@@ -1,6 +1,6 @@
 public class code1 {
 
     public static void main(String[] args) {
-        System.out.print("Hello, Java!\n");
+        System.out.print("\n\nHello, Java!\n\n");
     }
 }
