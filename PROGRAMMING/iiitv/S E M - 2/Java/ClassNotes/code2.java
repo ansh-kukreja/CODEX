@@ -8,23 +8,23 @@ public class code2 {
         int input = -1;
         while(input != 0){
             System.out.println("\n------ Choose any Option ------");
-            System.out.println("Enter 1 for Addition");
-            System.out.println("Enter 2 for Subtraction");
-            System.out.println("Enter 3 for Division");
+            System.out.println("Enter 1 for Division");
+            System.out.println("Enter 2 to find GCD");
+            System.out.println("Enter 3 to find LCM");
             System.out.println("Enter 4 for Power");
-            System.out.println("Enter 5 for Absolute Value");
-            System.out.println("Enter 6 to find Max Value in an Array");
-            System.out.println("Enter 7 to find Min Value in an Array");
+            System.out.println("Enter 5 to find Max Value in an Array");
+            System.out.println("Enter 6 to find Min Value in an Array");
+            System.out.println("Enter 7 for Absolute Value");
             System.out.println("Enter 8 for Factorial");
             System.out.println("Enter 9 to find Sum of Array");
             System.out.println("Enter 10 to find Sum of Digits");
             System.out.println("Enter 11 to find Square Root");
-            System.out.println("Enter 12 to find GCD");
-            System.out.println("Enter 13 to find LCM");
-            System.out.println("Enter 14 to check Prime");
-            System.out.println("Enter 15 to check Leap Year");
-
-
+            System.out.println("Enter 12 to check Prime");
+            System.out.println("Enter 13 to check Leap Year");
+            System.out.println("Enter 14 to check Palindrome");
+            System.out.println("Enter 15 to check Armstrong");
+            System.out.println("Enter 16 to find Arithematic Sequence Sum");
+            System.out.println("Enter 17 to find Geometric Sequence Sum");
 
             System.out.println("Enter 0 to Exit!\n");
 
@@ -33,25 +33,25 @@ public class code2 {
 
             switch (input) {
                 case 1:
-                    f.add();
+                    f.div();
                     break;
                 case 2:
-                    f.sub();
+                    f.gcd();
                     break;
                 case 3:
-                    f.div();
+                    f.lcm();
                     break;
                 case 4:
                     f.power();
                     break;
                 case 5:
-                    f.abs();
-                    break;
-                case 6:
                     f.maxInArray();
                     break;
-                case 7:
+                case 6:
                     f.minInArray();
+                    break;
+                case 7:
+                    f.abs();
                     break;
                 case 8:
                     f.fact();
@@ -63,21 +63,26 @@ public class code2 {
                     f.sumOfDigits();
                     break;
                 case 11:
-                    f.squareRoot();;
+                    f.squareRoot();
                     break;
                 case 12:
-                    f.gcd();
-                    break;
-                case 13:
-                    f.lcm();
-                    break;
-                case 14:
                     f.isPrime();
                     break;
-                case 15:
+                case 13:
                     f.isLeapYear();
                     break;
-            
+                case 14:
+                    f.isPalindrome();
+                    break;
+                case 15:
+                    f.isArmstrong();
+                    break;
+                case 16:
+                    f.arithematicSum();
+                    break;
+                case 17:
+                    f.geometricSum();
+                    break;
                 default:
                     break;
             }
@@ -88,23 +93,8 @@ public class code2 {
 }
 
 class otherFuns{
-    int a,b,c, p;
+    int a,b,c,d,n, p;
     Scanner sc = new Scanner(System.in);
-
-
-    void add(){
-        System.out.println("Enter two nums to Add: ");
-        a = sc.nextInt();
-        b = sc.nextInt();
-        System.out.println("Sum: " + (a+b));
-    }
-
-    void sub(){
-        System.out.println("Enter two nums to Subtract: ");
-        a = sc.nextInt();
-        b = sc.nextInt();
-        System.out.println("Subtraction: " + (a-b));
-    }
 
     void div(){
         System.out.println("Enter two nums to Divide: ");
@@ -259,6 +249,84 @@ class otherFuns{
             System.out.println("Its not a Leap Year");
         }
     }
+
+    void isPalindrome(){
+        System.out.println("Enter Number: ");
+        a = sc.nextInt();
+
+        int original = a;
+        int reversed = 0;
+
+        while (a > 0) {
+            int digit = a % 10;
+            reversed = reversed * 10 + digit;
+            a = a / 10;
+        }
+
+        if(original == reversed){
+            System.out.println("It is a Palindrome Number");
+        }
+        else{
+            System.out.println("Not a Palindrome Number");
+        }
+    }
+
+    void isArmstrong(){
+        System.out.println("Enter Number: ");
+        a = sc.nextInt();
+
+        int original = a;
+        int sum = 0;
+        int digits = 0;
+        int temp = a;
+
+        while (temp > 0) {
+            digits++;
+            temp /= 10;
+        }
+
+        temp = a;
+
+        while (temp > 0) {
+            int digit = temp % 10;
+            sum += Math.pow(digit, digits);
+            temp /= 10;
+        }
+
+        if(sum == original){
+            System.out.println("It is an Armstrong Number");
+        }
+        else{
+            System.out.println("Not an Armstrong Number");
+        }
+    }
+
+    void arithematicSum(){
+        System.out.println("Enter First Term: ");
+        a = sc.nextInt();
+        System.out.println("Enter Common Difference: ");
+        d = sc.nextInt();
+        System.out.println("Enter total number of terms: ");
+        n = sc.nextInt();
+
+        int sum = (n * (2 * a + (n - 1) * d)) / 2;
+    
+        System.out.println("Arithematic Sequence Sum is: " + sum);
+    }
+
+    void geometricSum(){
+        System.out.println("Enter First Term: ");
+        a = sc.nextInt();
+        System.out.println("Enter Common Ratio: ");
+        b = sc.nextInt();
+        System.out.println("Enter total number of terms: ");
+        n = sc.nextInt();
+
+        int sum = (int)(a * (Math.pow(b, n) - 1) / (b - 1));
+        System.out.println("Geometric Sequence Sum is: " + sum);
+    }
+
+    
 
     void maxInArray(){
         System.out.print("Enter size of array: ");

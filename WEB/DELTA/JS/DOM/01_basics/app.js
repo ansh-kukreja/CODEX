@@ -75,4 +75,71 @@ img.setAttribute('src', 'assets/creation_2.jpeg');
 
 
 
+// ==== Manipulation of Style ====
+
+// e.g. 1
+let heading = document.querySelector('h1');
+
+heading.style.color = 'purple';
+heading.style.fontStyle = 'italic';
+
+
+// e.g. 2
+let links = document.querySelectorAll('.box a');
+
+for(let i=0; i<links.length; i++){
+    links[i].style.color = 'green';
+}
+
+// e.g. 3 Manipulating Classes
+heading.classList.add("newClass");
+heading.classList.remove("newClass");
+heading.classList.contains("newClass");
+heading.classList.toggle("newClass");  // If class exists then it will remove it, and if it doesn't exists, then it will add it
+
+
+// -----------------------------------------------------------------------------------------------
+
+// Checking 'Parent', 'Children', 'Sibling' elements of any given element
+
+let box = document.querySelector('.box');
+
+box.parentElement;
+box.children;
+box.childElementCount;
+box.previousSibling;
+box.nextSibling
+box.previousElementSibling;
+box.nextElementSibling;
+
+// -----------------------------------------------------------------------------------------------
+
+// Inserting a New Element
+
+let newPara = document.createElement('p');
+
+newPara.innerText = "Hi! I'm a new paragraph";
+
+let body = document.querySelector('body');
+body.appendChild(newPara);
+box.appendChild(newPara);
+
+newPara.append(", Dhak Dhak!");  // used to Append in String
+
+newPara.prepend("RAGA!, ");  // used to Prepend String in the Starting
+
+
+
+// Adding Elements at different locations
+let para2 = document.querySelector('#description');
+
+para2.insertAdjacentElement('beforebegin', newPara);
+para2.insertAdjacentElement('afterbegin', newPara);
+para2.insertAdjacentElement('beforeend', newPara);
+para2.insertAdjacentElement('afterend', newPara);
+
+// To Remove an Element
+para2.remove();
+
+
 
