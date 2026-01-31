@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     int n=7;
-    int arr[n] = {40,4,7,9,7,6,79}; // 4 6 7 7 9 40 79 
+    // int arr[n] = {40,4,7,9,7,6,79}; // 4 6 7 7 9 40 79 
 
     for(int i=0; i<n-1; i++){
         int minIndex = i;
