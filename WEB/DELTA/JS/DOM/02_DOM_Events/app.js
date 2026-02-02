@@ -94,3 +94,32 @@ let addr = document.querySelector("#address");
 addr.addEventListener("input", function(event){
     console.log("Input Changed to " + addr.value);
 })
+
+
+// -------------------------------------------------------------------------------------------
+
+// ====  EVENT BUBBLINNG  ====
+
+// Problem is that, when we click on 'li' it will also triggers all its Parent's Events too.
+// To prevent that, we can write "event.stopPropagation();"
+
+let box = document.querySelector(".box");
+let ul = document.querySelector("ul");
+let listItems = document.querySelectorAll("li");
+
+box.addEventListener("click", function(){
+    console.log("Box was Clicked");
+});
+
+ul.addEventListener("click", function(){
+    console.log("UL was Clicked");
+});
+
+for(lit of listItems){
+    lit.addEventListener("click", function(event){
+        event.stopPropagation();
+        console.log("List Items were Clicked");
+    });
+}
+
+

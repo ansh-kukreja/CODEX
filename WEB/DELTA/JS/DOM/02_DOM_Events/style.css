@@ -1,0 +1,13 @@
+.box{
+    height: 299px;
+    width: 400px;
+    background-color: chocolate;
+}
+
+ul{
+    background-color: rgb(7, 134, 134);
+}
+
+li{
+    background-color: rgb(7, 123, 224);
+}
