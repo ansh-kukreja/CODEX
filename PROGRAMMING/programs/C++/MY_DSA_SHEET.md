@@ -1,4 +1,17 @@
 # Very Imp. Questions
+## Arrays
+
+1. 2Sum, 3Sum, 4Sum (Leetcode)
+
+2. Kadane's Algorithm (Leetcode #53)
+
+3. Subarray Sum Equals K [Leetcode #560](https://youtu.be/KDH4mhFVvHw?si=kZ3ZEJEFN30tigY9)
+
+
+<br>
+<br>
+
+
 ## Binary Trees
 ``
 1)_Level Order Traversal
@@ -51,6 +64,9 @@
 <br>
 <br>
 
+
+
+
 ## Heaps
 ``
 1)_Heapify
@@ -59,16 +75,21 @@
 ``
 2)_Heap Sort
 ``
-
 <br>
+<br>
+
+
 
 
 ## BackTracking
 ``
 1)_N Queens
 ``
-
 <br>
+<br>
+
+
+
 
 
 ## Graphs

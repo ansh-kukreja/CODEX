@@ -155,19 +155,4 @@ for(car of arr){
 <br>
 <br>
 
-## JavaScript DOM
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
+<h3>-> JavaScript is Single Threaded</h3>
