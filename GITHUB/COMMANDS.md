@@ -27,22 +27,25 @@ git push origin main
 git pull origin main
 ```
 
+<br>
+<br>
 
-# To upload Local Files/Folder to Github
 
-### To make a normal folder into git Repo
+## To upload Local Files/Folder to Github
+
+#### To make a normal folder into git Repo
 ```
 git init
 ```
-### Updates all the changes at once
+#### Updates all the changes at once
 ```
 git add .
 ```
-### Commit all the changes
+#### Commit all the changes
 ```
 git commit -m "some message"
 ```
-### To push a Local Repository to GitHub for the first time
+#### To push a Local Repository to GitHub for the first time
 ```
 git remote add origin link-Of-Repo-From-Github
 ```
@@ -63,7 +66,37 @@ git branch
 git branch -M main
 ```
 
-### Upload All Files/Folder
+#### Upload All Files/Folder
 ```
 git push -u origin main
+```
+
+<br>
+<br>
+
+### Branch Commands
+
+#### To check Branch
+```
+git branch
+```
+
+#### To rename Branch
+```
+git branch -M main
+```
+
+#### To Navigate
+```
+git checkout branchname
+```
+
+#### To create new Branch
+```
+git checkout -b newBranchName
+```
+
+#### To delete branch
+```
+git branch -d branchName
 ```
