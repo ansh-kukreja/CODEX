@@ -74,3 +74,17 @@ but we can add Tuples, Strings etc
 
 ### OOPS
 - We can only create one constructor at a time in a Class in Python
+
+<br>
+
+### File Handling
+Different Modes -
+```
+r : Reading (By Default)
+w : Writing (Overrides previous data)
+x : Creates New and Opens it for writing
+a : Appends in the End
+b : Binary Mode
+t : Text Mode (By Default)
++ : Opens disk files for update (r & w)
+```

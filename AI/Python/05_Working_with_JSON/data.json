@@ -1,0 +1,9 @@
+{
+    "name": "Ansh",
+    "isDeveloper": true,
+    "address": {
+        "city": "Kurukshetra",
+        "state": "Haryana"
+    },
+    "subjects": ["Python", "JavaScript", "C++", "C", "Java"]
+}

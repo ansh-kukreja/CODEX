@@ -156,3 +156,13 @@ for(car of arr){
 <br>
 
 <h3>-> JavaScript is Single Threaded</h3>
+
+<br>
+
+## JSON
+
+- JSON response is in the form of a <b>String</b>
+- To convert the response String into a JavaScript Object, use ``JSON.parse(data);``
+- To convert JavaScript Object into JSON, use ``JSON.stringify(json);``
+
+- [To Learn more](https://www.json.org/json-en.html)
