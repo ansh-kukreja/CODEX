@@ -100,3 +100,33 @@ git checkout -b newBranchName
 ```
 git branch -d branchName
 ```
+
+<br>
+<br>
+
+### Merge Commands
+
+#### To comapare commits, branches, files and more
+```
+git diff branchName
+```
+
+#### To merge two branches
+```
+git merge  branchName
+```
+
+<br>
+<br>
+
+### Fixing Mistakes
+
+#### To undo staging (git add .)
+```
+git reset
+```
+
+#### To undo last commit
+```
+git reset HEAD~1
+```

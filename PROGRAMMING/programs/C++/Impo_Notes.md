@@ -22,7 +22,14 @@ ans = (3 * (10 ^ 2)) + 21   = 321
 Gives -> 321
 ```
 
-<br><br>
+<br>
+<br>
+
+### To Count Set-bits (1s) of an Integer 
+```
+int n = 4;
+int noOfSetBits = __builtin_popcount(n);
+```
 
 ## To Do (Doubts)
 - Difference between "Set" and "Unordered Set" in detail
