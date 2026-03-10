@@ -1,6 +1,10 @@
 # Anaconda
 
-To create a virtual enviornment <br>
+- Anaconda is like an IDE that comes with many packages
+
+<br/>
+
+To activate a virtual enviornment <br>
 ``conda activate``
 
 To list all packages <br>
@@ -20,8 +24,19 @@ or <br>
 To deactivate <br>
 ``conda deactivate``
 
+<br/>
+<br/>
+
+# Jupyter Notebook
+
 To Open Jupyter Notebook <br>
 ``jupyter notebook``
+
+
+<br/>
+<br/>
+
+# Jupyter Lab
 
 To Start Jupyter Lab <br>
 ``jupyter lab``
