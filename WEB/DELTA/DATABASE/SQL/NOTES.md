@@ -30,24 +30,20 @@ create database name
 ## SQL Commands
 
 - To Create Database <br/>
-``
+```
 CREATE DATABASE name;
-``
-<br/>
-``
+
 CREATE DATABASE IF NOT EXISTS name;
-``
+```
 
 <br/>
 
 - To Drop/Delete Database<br/>
-``
+```
 DROP DATABASE name;
-``
-<br/>
-``
+
 DROP DATABASE IF EXISTS name;
-``
+```
 
 
 <br/>
@@ -151,14 +147,10 @@ where "customer(id)" is the "table(column)" where "cust_id" is the Primary key
 <br/>
 
 - To View Data from Table <br/>
-``
+```
 SELECT col1, col2 FROM table;
-``
-<br/>
-``
+
 SELECT DISTINCT col1 FROM table;
-``
-<br/><br/>
-``
+
 SELECT * FROM table;
-``
+```
