@@ -1,0 +1,134 @@
+\documentclass[12pt]{article}
+
+% ------ PACKAGES -------
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+
+\title{English_01}
+\author{Gauraansh}
+\date{March 2026}
+
+\onehalfspacing
+
+% ------ DOCUMENT -------
+\begin{document}
+
+% ------ TITLE PAGE ------
+\begin{title}
+
+\begin{center}
+    \vspace*{1cm}
+    {\Large \textbf{Gender and Profanity: How Men and Women use Profanity in  Public and Private Settings}}
+
+    \vspace{1.5cm}
+
+    Submitted by
+
+    \vspace{0.3cm}
+
+    \textbf{Gauraansh Gaur (20251651039)}
+
+    \vspace{1.5cm}
+
+    Under the Supervision of
+
+    \vspace{0.3cm}
+
+    \textbf{Dr. Barnali Chetia}
+
+    \vspace{1cm}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\linewidth]{iiitvlogo.png}
+        \label{fig:placeholder}
+    \end{figure}
+
+    \vspace{1cm}
+
+    Department of Computer Applications
+
+    Indian Institute of Information Technology
+
+    Vadodara
+
+    \vspace{0.5cm}
+
+    March 2026
+    
+\end{center}
+    
+\end{title}
+
+% ----------- TABLE OF CONTENT ---------  
+
+\tableofcontents
+\newpage
+
+% ----------- INTRODUCTION ---------  
+\section{Introduction}
+
+bhaang bhosda\\
+thora aur bhaang bhosda
+
+new paragraph using two 2 enter spaces
+
+% --------- BACKGROUND ----------
+\section{Background}
+
+\subsection{Key Concepts}
+
+Example of bullet list:
+
+\begin{itemize}
+    \item concept one
+    \item concept two
+    \item concept 3
+    \item concept 4
+\end{itemize}
+
+Example of numbered list:
+
+\begin{enumerate}
+    \item Step 1
+    \item Step 2
+    \item Step 3
+    \item Step 4
+\end{enumerate}
+
+% --------- METHODOLOGY -----------
+\section{Methodology}
+
+kaafi bada content..
+Example $E = mc^2$
+
+Equation: \[
+a^2 + b^2 = c^2
+\]
+
+% ------ RESULTS ------
+\section{Results}
+Tables can be used to waste your time
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline Model & Accuracy & Dataset \\
+         \hline
+         Model A & 90\% & Dataset 1 \\
+         Model B & 92\% & Dataset 2 \\
+         Model C & 89\% & Dataset 3 \\
+         \hline
+    \end{tabular}
+    \caption{Perfomance comparison of models}
+    \label{tab:placeholder}
+
+    Table-\ref{tab:comparison} shows the comparison of different models
+\end{table}
+
+
+\end{document}

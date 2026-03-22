@@ -1,11 +1,37 @@
 # Very Imp. Questions
 ## Arrays
 
-1. 2Sum, 3Sum, 4Sum (Leetcode)
+- 2Sum, 3Sum, 4Sum (Leetcode)
 
-2. Kadane's Algorithm (Leetcode #53)
+- Kadane's Algorithm [Leetcode 53](https://leetcode.com/problems/maximum-subarray/description/)
 
-3. Subarray Sum Equals K [Leetcode #560](https://youtu.be/KDH4mhFVvHw?si=kZ3ZEJEFN30tigY9)
+- Subarray Sum Equals K [Leetcode 560](https://youtu.be/KDH4mhFVvHw?si=kZ3ZEJEFN30tigY9)
+
+- Trapping Rain Water <b>(Pattern)</b> [Leetcode 42](https://leetcode.com/problems/trapping-rain-water/description/)
+
+- Count Submatrices with equal frequency of X and Y <b>(Pattern: 2D Prefix Sum)</b> [Leetcode 3212](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y?envType=daily-question&envId=2026-03-19)
+
+- Sliding Window Maximum <b>(Pattern: Sliding Window, Deque)</b> [Leetcode 239](https://leetcode.com/problems/sliding-window-maximum)
+
+- Largest Rectangle in Histogram <b>(Pattern, HARD, V. IMPORTANT)</b> [Leetcode 84](https://leetcode.com/problems/largest-rectangle-in-histogram)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br>
