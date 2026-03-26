@@ -15,7 +15,9 @@
 
 - Largest Rectangle in Histogram <b>(Pattern, HARD, V. IMPORTANT)</b> [Leetcode 84](https://leetcode.com/problems/largest-rectangle-in-histogram)
 
+- Construct Product Matrix <b>(Pattern: Prefix & Suffix)</b> [Leetcode 2906](https://leetcode.com/problems/construct-product-matrix?envType=daily-question&envId=2026-03-24)
 
+- Equal Sum Grid Partition II <b>(Pattern, HARD, V. IMPORTANT)</b> [Leetcode 3548](https://leetcode.com/problems/equal-sum-grid-partition-ii?envType=daily-question&envId=2026-03-26)
 
 
 
