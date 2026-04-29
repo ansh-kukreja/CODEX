@@ -5,7 +5,7 @@ using namespace std;
 
 // Find Minimum element and swap it with first index, then with second index, ....
 
-void selectionSort(int *arr, int n){
+void selectionSort(int* arr, int n){
     for(int i=0; i<n-1; i++){
         for(int j=i+1; j<n; j++){
             if(arr[j] < arr[i]){

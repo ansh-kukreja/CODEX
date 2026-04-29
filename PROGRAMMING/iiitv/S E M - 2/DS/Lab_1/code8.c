@@ -6,8 +6,8 @@ int main(){
 
     int implicit = a * b;
 
-    int explicit = (float)a * b;
+    int explicit = a * (int)b;
 
-    printf("\nImplicit Typecasting: %.2f \n\n", a*b);
-    printf("Explicit Typecasting: %.2f \n\n", a*b);
+    printf("\nImplicit Typecasting: %.2d \n\n", implicit);
+    printf("Explicit Typecasting: %.2d \n\n", explicit);
 }
