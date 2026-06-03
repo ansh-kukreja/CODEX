@@ -1,4 +1,4 @@
 *.exe
 
 node_modules/
-FLUTTER/
+APP_DEV/
