@@ -112,7 +112,22 @@
 
 ## Stacks
 
-- Largest Rectangle in Histogram <b>(Pattern, HARD, V. IMPORTANT)</b> [Leetcode 84](https://leetcode.com/problems/largest-rectangle-in-histogram)
+- Delete Middle Element from Stack <b>(Pattern: Recursion)</b> [CodeStudio](https://www.naukri.com/code360/problems/delete-middle-element-from-stack_985246)
+
+- Insert at Bottom of Stack <b>(Pattern: Recursion)</b> [CodeStudio](https://www.naukri.com/code360/problems/insert-an-element-at-its-bottom-in-a-given-stack_1171166)
+
+- Reverse a Stack using Recursion <b>(Pattern: Recursion)</b> [CodeStudio](https://www.naukri.com/code360/problems/reverse-stack-using-recursion_631875)
+
+- Sort a Stack <b>(Pattern: Recursion)</b> [GFG](https://www.geeksforgeeks.org/problems/sort-a-stack/1)
+
+- Minimum Cost to make String Valid <b>(VV IMPORTANT)</b> [Love Babbar](https://youtu.be/BmZnJehDzyU?si=qDSzdkoKuk3x7BZy&t=4440), [CodeStudio](https://www.naukri.com/code360/problems/minimum-cost-to-make-string-valid_1115770)
+
+- Next Smaller Element <b>(Imp Pattern)</b> [CodeStudio](https://www.naukri.com/code360/problems/next-smaller-element_1112581)
+
+
+
+
+- Largest Rectangle in Histogram <b>(Pattern, HARD, VV IMPORTANT)</b> [Leetcode 84](https://leetcode.com/problems/largest-rectangle-in-histogram)
 
 - Robot Collisions <b>(Pattern: Stack Simulation, HARD)</b> [Leetcode 2751](https://leetcode.com/problems/robot-collisions?envType=daily-question&envId=2026-04-01)
 
