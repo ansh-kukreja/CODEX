@@ -124,12 +124,16 @@
 
 - Next Smaller Element <b>(Imp Pattern)</b> [CodeStudio](https://www.naukri.com/code360/problems/next-smaller-element_1112581)
 
-
-
-
 - Largest Rectangle in Histogram <b>(Pattern, HARD, VV IMPORTANT)</b> [Leetcode 84](https://leetcode.com/problems/largest-rectangle-in-histogram)
 
 - Robot Collisions <b>(Pattern: Stack Simulation, HARD)</b> [Leetcode 2751](https://leetcode.com/problems/robot-collisions?envType=daily-question&envId=2026-04-01)
+
+- The Celebrity Problem <b>(Pattern)</b> [GFG](https://www.geeksforgeeks.org/problems/the-celebrity-problem/1)
+
+- Max Rectangle in a Binary Matrix <b>(Tricky, IMPORTANT)</b> [GFG](https://www.geeksforgeeks.org/problems/max-rectangle/1)
+
+- N Stacks in an Array <b>(FAAAAAHHHHHHHHHH!!!!!)</b> [Love Babbar](https://youtu.be/lrSXKLmnMV8?si=K7feBV0KoD8RCWKG), [CodeStudio](https://www.naukri.com/code360/problems/n-stacks-in-an-array_1164271)
+
 
 
 
