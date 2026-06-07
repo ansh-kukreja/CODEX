@@ -134,6 +134,8 @@
 
 - N Stacks in an Array <b>(FAAAAAHHHHHHHHHH!!!!!)</b> [Love Babbar](https://youtu.be/lrSXKLmnMV8?si=K7feBV0KoD8RCWKG), [CodeStudio](https://www.naukri.com/code360/problems/n-stacks-in-an-array_1164271)
 
+- Min Stack <b>(HARD, TRICKY, Pattern: Encoding Numbers)</b> [Love Babbar](https://youtu.be/OpwYmEBcPh0?si=9lCQUHpsK1PD0iWT), [Leetcode 155](https://leetcode.com/problems/min-stack)
+
 
 
 
