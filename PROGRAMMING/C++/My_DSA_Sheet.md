@@ -1,4 +1,6 @@
-# Very Imp. Questions
+# Ansh Kukreja's DSA Sheet
+
+
 ## Arrays
 
 - 2Sum, 3Sum, 4Sum (Leetcode)
@@ -144,18 +146,25 @@
 
 
 
-
-
-
-
-
-
 <br>
 <br>
 
 ## Queue
 
+- Implement Stack using Queue <b>(Pattern)</b> [Leetcode 225](https://leetcode.com/problems/implement-stack-using-queues)
+
+- Circular Tour / Gas Station <b>(Pattern: Sliding Window)</b> [Leetcode 134](https://leetcode.com/problems/gas-station)
+
 - Sliding Window Maximum <b>(Pattern: Sliding Window, Deque, HARD, V.IMPORTANT)</b> [Leetcode 239](https://leetcode.com/problems/sliding-window-maximum)
+
+- Implement K Queues in an Array <b>(Pattern, IMPORTANT)</b> [Love Babbar](https://youtu.be/_gJ3to4RyeQ?si=WwmrFe7j14-axZUV&t=5126), [GFG](https://www.geeksforgeeks.org/problems/implement-k-queues-in-a-single-array/1)
+
+- Sum of Min & Max Elements of all Subarrays of size K <b>(Pattern: Sliding Window, IMPORTANT)</b> [CodeStudio](https://www.naukri.com/code360/problems/sum-of-minimum-and-maximum-elements-of-all-subarrays-of-size-k_1171047)
+
+- LRU Cache <b>(V. IMPORTANT)</b> [CodeStoryWithMIK](https://youtu.be/81h8O-0U5oo?si=6rSuKmFji2IjIXKT), [Leetcode 146](https://leetcode.com/problems/lru-cache)
+
+
+
 
 
 
