@@ -176,16 +176,45 @@
 
 
 ## Binary Trees
+
+- Level Order Traversal <b>(Pattern: BFS)</b> [Leetcode 102](https://leetcode.com/problems/binary-tree-level-order-traversal)
+<br><i><b>Sub-Problems</b><br>
+Left View [GFG](https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1) </br>
+Right View [GFG](https://www.geeksforgeeks.org/problems/right-view-of-binary-tree/1) </br>
+</i>
+
+- Height of a Binary Tree <b>(Pattern: Recursion)</b> [Leetcode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree)
+
+- Diameter of a Binary Tree <b>(Pattern: Recursion)</b> [Leetcode 543](https://leetcode.com/problems/diameter-of-binary-tree)
+
+- ZigZag Level Order Traversal <b>(Pattern: BFS)</b> [Leetcode 103](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)
+
+- Vertical Order Traversal <b>(Bhot Jada Important)</b> [Leetcode 987](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)
+<br><i><b>Sub-Problems</b><br>
+Top View [GFG](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1) </br>
+Bottom View [GFG](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1) </br>
+</i>
+
+
+- Diagonal Tree Traversal <b>(To-Do)</b> [GFG](https://www.geeksforgeeks.org/problems/diagonal-traversal-of-binary-tree/1)
+
+
+- Lowest Common Ancestor: LCA of 2 given Nodes <b>(IMPORTANT)</b> [Leetcode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)
+
+- K Sum Paths <b>(Brute Force Done, Find Optimized Approach..)</b> [GFG](https://www.geeksforgeeks.org/problems/k-sum-paths/1)
+
+- Maximum Sum of Non-Adjacent Nodes <b>(Pattern: Include/Exclude)</b> [GFG](https://www.geeksforgeeks.org/problems/maximum-sum-of-non-adjacent-nodes/1)
+
+
+
+
+
+
+
+
+
 ``
-1)_Level Order Traversal
-``
-<br>
-``
-2)_Vertical Order Traversal
-``
-<br>
-``
-3)_Lowest Common Ancestor (LCA) of 2 given Nodes
+0)_ of 2 given Nodes
 ``
 <br>
 ``

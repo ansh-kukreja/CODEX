@@ -8,9 +8,9 @@ using namespace std;
 
 class node{
     public:
-    int data;
-    node* left;
-    node* right;
+        int data;
+        node* left;
+        node* right;
 
     node(int d){
         data = d;
@@ -29,9 +29,9 @@ node* buildTree(node* &root){
         return NULL;
     }
 
-    cout<<"Enter data for inserting in left of "<<data<<endl;
+    cout<<"Enter data to insert in left of "<<data<<endl;
     root->left = buildTree(root->left);
-    cout<<"Enter data for inserting in right of "<<data<<endl;
+    cout<<"Enter data to insert in right of "<<data<<endl;
     root->right = buildTree(root->right);
     return root;
 }
