@@ -205,6 +205,7 @@ Bottom View [GFG](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-t
 
 - Maximum Sum of Non-Adjacent Nodes <b>(Pattern: Include/Exclude)</b> [GFG](https://www.geeksforgeeks.org/problems/maximum-sum-of-non-adjacent-nodes/1)
 
+- Construct Binary Tree from Inorder & Preorder <b>(Pattern)</b> [Leetcode 105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 
 
 
