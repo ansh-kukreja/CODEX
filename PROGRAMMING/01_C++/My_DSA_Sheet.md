@@ -216,7 +216,7 @@ Bottom View [GFG](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-t
 Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/solutions/8355314/morris-traversal-c-by-anshkukreja-yzjc), [Leetcode 114](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)</br>
 </i>
 
-- Max Width of Binary Tree <b>(VVV IMPORTANT, Pattern: CBT Indexing)</b> [Leetcode 662](https://leetcode.com/problems/maximum-width-of-binary-tree)
+- Max Width of Binary Tree <b>(VVV IMPORTANT, Pattern: CBT Indexing)</b> [Shradha Khapra](https://youtu.be/rhz-csskg_A?si=yVhKoRu1NS2xTL7M), [Leetcode 662](https://leetcode.com/problems/maximum-width-of-binary-tree)
 
 
 
