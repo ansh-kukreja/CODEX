@@ -205,7 +205,18 @@ Bottom View [GFG](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-t
 
 - Maximum Sum of Non-Adjacent Nodes <b>(Pattern: Include/Exclude)</b> [GFG](https://www.geeksforgeeks.org/problems/maximum-sum-of-non-adjacent-nodes/1)
 
-- Construct Binary Tree from Inorder & Preorder <b>(Pattern)</b> [Leetcode 105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
+- Construct Binary Tree from Inorder & Preorder <b>(IMPORTANT)</b> [Leetcode 105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
+
+- Construct Binary Tree from Inorder & Postorder <b>(IMPORTANT)</b> [Leetcode 106](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
+
+- Burning Tree <b>(VVV IMPORTANT)</b> [Love Babbar](https://youtu.be/XLdpy0_6MR4?si=uOTdOvCczZ9nY3VY), [Leetcode 2385](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected)
+
+- Morris Inorder Traversal <b>(IMPORTANT PRO MAX)</b> [Leetcode 94](https://leetcode.com/problems/binary-tree-inorder-traversal)
+<br><i><b>Sub-Problems</b><br>
+Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/solutions/8355314/morris-traversal-c-by-anshkukreja-yzjc), [Leetcode 114](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)</br>
+</i>
+
+- Max Width of Binary Tree <b>(VVV IMPORTANT, Pattern: CBT Indexing)</b> [Leetcode 662](https://leetcode.com/problems/maximum-width-of-binary-tree)
 
 
 
@@ -214,62 +225,19 @@ Bottom View [GFG](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-t
 
 
 
-``
-0)_ of 2 given Nodes
-``
-<br>
-``
-4)_GFG: K Sum Paths
-``
-<br>
-``
-5)_GFG: Kth Ancestor in a Tree
-``
-<br>
-``
-6)_Construct Tree from Inorder & Preorder
-``
-<br>
-``
-7)_GFG: Min Time to Burn the Entire Tree
-``
-<br>
-``
-8)_Morris Traversal
-``
-<br>
-``
-9)_Convert a Binary Tree into Linked List (Flatten a Tree)
-``
-<br>
-<br>
-``
-10)_Construct BST from Preorder Traversal
-``
-<br>
-``
-11)_Construct BST from Sorted Linked List
-``
-<br>
-``
-12)_Merge 2 BST
-``
+
+
 <br>
 <br>
 
 
+## Binary Search Trees
 
 
-## Heaps
-``
-1)_Heapify
-``
-<br>
-``
-2)_Heap Sort
-``
-<br>
-<br>
+
+
+
+
 
 
 
