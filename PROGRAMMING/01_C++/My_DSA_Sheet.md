@@ -218,8 +218,7 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 - Max Width of Binary Tree <b>(VVV IMPORTANT, Pattern: CBT Indexing)</b> [Shradha Khapra](https://youtu.be/rhz-csskg_A?si=yVhKoRu1NS2xTL7M), [Leetcode 662](https://leetcode.com/problems/maximum-width-of-binary-tree)
 
-
-
+- Maximum Path Sum <b>(VVV IMPORTANT)</b> [CodeStoryWithMIK](https://youtu.be/Op6YFcs8R9M?si=qQg9cvp1YkhsTbb5), [Leetcode 124](https://leetcode.com/problems/binary-tree-maximum-path-sum)
 
 
 
