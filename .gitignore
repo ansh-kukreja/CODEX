@@ -1,4 +1,7 @@
 *.exe
 
+.ipynb_checkpoints/
+.virtual_documents
+
 node_modules/
 APP_DEV/

@@ -232,6 +232,7 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 ## Binary Search Trees
 
+- Delete Node in a BST <b>(Pattern: Inorder Pred/Suc)</b> [Leetcode 450](https://leetcode.com/problems/delete-node-in-a-bst)
 
 
 

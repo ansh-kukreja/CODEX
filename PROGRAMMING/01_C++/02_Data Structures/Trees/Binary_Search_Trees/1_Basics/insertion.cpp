@@ -73,4 +73,4 @@ int main(){
     levelOrderTraversing(root);
 }
 
-// 10 8 21 7 27 5 4 3
+// 10 8 21 7 27 5 4 3 -1
