@@ -53,8 +53,12 @@
 - KMP Algorithm <b>(IMPORTANT PATTERN)</b> [CodeStoryWithMIK](https://youtu.be/qases-9gOpk?si=oskBN0bGh_-ABs5S)
 <br><i><b>Related Important Questions</b> </br>
 [Leetcode 1392](https://leetcode.com/problems/longest-happy-prefix) </br>
-
 </i>
+
+- Num of Substrings containing all 3 characters <b>(Pattern: Sliding Window)</b> [Leetcode 1358](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters?envType=daily-question&envId=2026-06-30)
+
+
+
 
 
 
@@ -234,12 +238,27 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 - Delete Node in a BST <b>(Pattern: Inorder Pred/Suc)</b> [Leetcode 450](https://leetcode.com/problems/delete-node-in-a-bst)
 
+- Validate a BST <b>(Pattern: Defining Ranges)</b> [Leetcode 98](https://leetcode.com/problems/validate-binary-search-tree/description/)
+
+- Kth largest Element in a BST <b>(Pattern: Reverse Inorder Traversal)</b> [GFG](https://www.geeksforgeeks.org/problems/kth-largest-element-in-bst/1)
+
+- LCA of 2 given Nodes in a BST <b>(Pattern: Interesting BST Property)</b> [Leetcode 235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
+
+- Balance a BST <b>(Good question)</b> [Leetcode 1382](https://leetcode.com/problems/balance-a-binary-search-tree)
+
+- Construct BST from Preorder <b>(Good question)</b> [Leetcode 1008](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal)
 
 
 
 
 
 
+
+
+
+
+<br>
+<br>
 
 
 ## BackTracking
