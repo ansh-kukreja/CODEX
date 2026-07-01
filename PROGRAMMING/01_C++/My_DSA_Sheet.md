@@ -248,6 +248,17 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 - Construct BST from Preorder <b>(Good question)</b> [Leetcode 1008](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal)
 
+- Merge 2 BSTs <b>(IMPORTANT)</b> [Love Babbar](https://youtu.be/18w8VduomfI?si=OpOqby7l6kvZWrF5)
+
+- Merge N BSTs <b>(To-Do)</b> [Leetcode 1932](https://leetcode.com/problems/merge-bsts-to-create-single-bst)
+
+- Largest BST in a Binary Tree <b>(IMPORTANT)</b> [GFG](https://www.geeksforgeeks.org/problems/largest-bst/1)
+
+- BST Inorder Iterator <b>(V IMPORTANT, Pattern: Inorder Traversal)</b> [Shradha Khapra](https://youtu.be/dS1bKglre3A?si=u0hQ5cOPyvJwVZRX), [Leetcode 173](https://leetcode.com/problems/binary-search-tree-iterator)
+
+- Serialize & Deserialize Binary Tree <b>(PENDING)</b> [Leetcode 297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)
+
+
 
 
 
@@ -261,12 +272,9 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 <br>
 
 
-## BackTracking
-``
-1)_N Queens
-``
-<br>
-<br>
+## Heaps
+
+- Delete Node in a BST <b>(Pattern: Inorder Pred/Suc)</b> [Leetcode 450](https://leetcode.com/problems/delete-node-in-a-bst)
 
 
 
