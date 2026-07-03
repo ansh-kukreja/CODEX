@@ -274,7 +274,13 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 ## Heaps
 
-- Delete Node in a BST <b>(Pattern: Inorder Pred/Suc)</b> [Leetcode 450](https://leetcode.com/problems/delete-node-in-a-bst)
+- Build Min Heap <b>(Pattern: Heapify)</b> [CodeStudio](https://www.naukri.com/code360/problems/build-min-heap_1171167)
+
+
+
+
+
+
 
 
 

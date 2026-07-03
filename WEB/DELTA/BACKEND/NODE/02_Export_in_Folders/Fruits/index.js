@@ -8,5 +8,5 @@ module.exports = fruits;
 
 
 // ============================================================================
-// THE NAME OF THIS FILE HAS TO BE "index.html" ONLY
+// THE NAME OF THIS FILE HAS TO BE "index.js" ONLY
 // ============================================================================

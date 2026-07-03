@@ -23,9 +23,7 @@ class Heap{
                 swap(arr[parent], arr[index]);
                 index = parent;
             }
-            else{
-                return;
-            }
+            else return;
         }
     }
 
@@ -76,7 +74,7 @@ void heapify(int arr[], int n, int i){
     if(left < n && arr[largest] < arr[left]){
         largest = left;
     }
-    else if(right < n && arr[largest] < arr[right]){
+    if(right < n && arr[largest] < arr[right]){
         largest = right;
     }
 

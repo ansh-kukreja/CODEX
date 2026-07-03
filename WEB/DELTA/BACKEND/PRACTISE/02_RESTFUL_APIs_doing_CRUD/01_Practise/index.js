@@ -19,7 +19,7 @@ let posts = [
     {
         id: uuidv4(),
         username: "anshkukreja",
-        content: "MERN Stack learning process!"
+        content: "Badmaashi ni mittar.."
     },
     {
         id: uuidv4(),
