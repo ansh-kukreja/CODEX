@@ -31,6 +31,3 @@ int n = 4;
 int noOfSetBits = __builtin_popcount(n);
 ```
 
-## To Do (Doubts)
-- Difference between "Set" and "Unordered Set" in detail
-

@@ -276,6 +276,14 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 - Build Min Heap <b>(Pattern: Heapify)</b> [CodeStudio](https://www.naukri.com/code360/problems/build-min-heap_1171167)
 
+- Kth Largest Element <b>(Pattern, VVV IMPORTANT)</b> [Leetcode 215](https://leetcode.com/problems/kth-largest-element-in-an-array)
+
+- Kth Smallest Element <b>(Pattern, VVV IMPORTANT)</b> [GFG](https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1)
+
+- Is Given Binary Tree a CBT <b>(VVV IMPORTANT)</b> [Leetcode 958](https://leetcode.com/problems/check-completeness-of-a-binary-tree)
+
+- Is Given Binary Tree a Heap <b>(VVV IMPORTANT)</b> [GFG](https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1)
+
 
 
 
