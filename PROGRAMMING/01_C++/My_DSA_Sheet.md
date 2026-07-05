@@ -284,6 +284,12 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 - Is Given Binary Tree a Heap <b>(VVV IMPORTANT)</b> [GFG](https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1)
 
+- Kth Largest Subarray Sum <b>(VVV IMPORTANT)</b> [GFG](https://www.geeksforgeeks.org/problems/k-th-largest-sum-contiguous-subarray/1)
+
+- Merge K Sorted Arrays <b>(Custom MinHeap, VVV IMPORTANT)</b> [CodeStudio](https://www.naukri.com/code360/problems/merge-k-sorted-arrays_975379)
+
+- Merge K Sorted Lists <b>(Custom MinHeap, VVV IMPORTANT)</b> [Leetcode 23](https://leetcode.com/problems/merge-k-sorted-lists)
+
 
 
 
