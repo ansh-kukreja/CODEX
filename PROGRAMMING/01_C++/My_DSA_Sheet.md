@@ -290,6 +290,8 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 - Merge K Sorted Lists <b>(Custom MinHeap, VVV IMPORTANT)</b> [Leetcode 23](https://leetcode.com/problems/merge-k-sorted-lists)
 
+- Smallest Range covering Elements from K Lists <b>(VVV IMPORTANT)</b> [Leetcode 632](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists)
+
 
 
 
