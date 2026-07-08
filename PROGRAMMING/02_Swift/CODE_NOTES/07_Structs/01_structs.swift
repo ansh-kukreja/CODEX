@@ -164,5 +164,5 @@ struct AppData {
 print(AppData.version)
 
 
-
-
+// == NOTE: When we create a variable that stores an Object of a Struct, 
+// then the Value of that Object is Stored inside that variable, Not the Reference..

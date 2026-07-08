@@ -71,6 +71,8 @@ class Car: Vehichle {
 
 
 // ===== Copying Classes ======
+// In Swift when we create an object of a Class, it stores the reference of an object of that class..
+// Assume that the variable "let user1" is a pointer and stores Address of an Object of the Class 'User'
 
 class User {
     var username = "Anonymous"
