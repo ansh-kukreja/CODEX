@@ -78,21 +78,11 @@
 
 
 
-<br>
-<br>
-
-## Recursion & Backtracking
-
-- Subsets <b>(Pattern: Finding all Subsets i.e. PowerSet)</b> [Leetcode 78](https://leetcode.com/problems/subsets)
-
-
-
-
-
 
 
 <br>
 <br>
+
 
 ## Linked List
 
@@ -300,16 +290,43 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 
 
+<br>
+<br>
+
+## Tries
+
+- Implement a Trie <b>(Implementation)</b> [Leetcode 208](https://leetcode.com/problems/implement-trie-prefix-tree)
+
+- Longest Common Prefix <b>(Basic)</b> [Leetcode 14](https://leetcode.com/problems/longest-common-prefix)
+
+- Implement a Phone Directory <b>(VVV IMPORTANT)</b> [CodeStudio](https://www.naukri.com/code360/problems/implement-a-phone-directory_1062666)
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+
+## Recursion & Backtracking
+
+- Subsets <b>(Pattern: Finding all Subsets i.e. PowerSet)</b> [Leetcode 78](https://leetcode.com/problems/subsets)
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
 
 ## Graphs
-``
-1)_Cycle Detection in Directed/Undirected Graphs
-``
-<br>
-``
-2)_Topological Sort of a DAG (Directed Acyclic Graph)
-``
-<br>
-``
-3)_Dijkstra's Algorithm (VV.IMP)
-``
