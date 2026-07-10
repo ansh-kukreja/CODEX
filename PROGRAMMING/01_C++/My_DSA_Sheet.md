@@ -317,9 +317,11 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 - Subsets <b>(Pattern: Finding all Subsets i.e. PowerSet)</b> [Leetcode 78](https://leetcode.com/problems/subsets)
 
+- Rat in a Maze <b>(Pattern: Backtracking)</b> [GFG](https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)
 
+- N-Queens <b>(GOod QuEstIon)</b> [Leetcode 51](https://leetcode.com/problems/n-queens)
 
-
+- Sudoku Solver <b>(GOod QuEstIon)</b> [Leetcode 37](https://leetcode.com/problems/sudoku-solver)
 
 
 
