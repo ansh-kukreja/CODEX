@@ -36,6 +36,27 @@ class Solution {
         }
         return false;
     }
+
+    
+    bool isCyclicDFS(int node, int parent, unordered_map<int,bool> &visited, unordered_map<int,list<int>> &adj){
+        
+        visited[node] = true;
+
+        for (int neighbour : adj[node]) {
+
+            if (!visited[neighbour]) {
+                bool cycleDetected = isCyclicDFS(neighbour, node, visited, adj);
+
+                if (cycleDetected) return true;
+            }
+            else if (neighbour != parent) {
+                // ==== Cycle Detected ====
+                return true;
+            }
+        }
+
+        return false;
+    }
   
 
     // ===== MAIN FUNCTION =====

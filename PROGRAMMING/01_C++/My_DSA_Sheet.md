@@ -332,3 +332,16 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 <br>
 
 ## Graphs
+
+- BFS <b>(Pattern: Queue)</b> [GFG](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
+
+- DFS <b>(Pattern: Recursion Stack)</b> [GFG](https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1)
+
+- Cycle Detection in Undirected Graph using BFS/DFS <b>(Maintain Parent for each Node)</b> [GFG](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1)
+
+- Cycle Detection in Directed Graph using BFS/DFS <b>(Maintain Visited Nodes of Current Call)</b> [CodeStoryWithMIK](https://youtu.be/K_LamGUvwUc?si=GDzl4bmz4ETV9AaM), [GFG](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1)
+
+- Topological Sort using DFS <b>(Pattern: Stack)</b> [CodeStoryWithMIK](https://youtu.be/WbbYZRr4arw?si=cJqu81RIH9CHr38J), [GFG](https://www.geeksforgeeks.org/problems/topological-sort/1)
+
+- Topological Sort using BFS - Kahn's Algorithm <b>(Pattern: BFS)</b> [GFG](https://www.geeksforgeeks.org/problems/topological-sort/1)
+

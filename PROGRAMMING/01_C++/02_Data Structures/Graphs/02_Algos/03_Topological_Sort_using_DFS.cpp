@@ -9,13 +9,17 @@ using namespace std;
 class Solution {
   public:
   
-  void topSort(int node, unordered_map<int,bool> &visited, stack<int> &s,
-  unordered_map<int,list<int>> &adj){
+  void topSort(
+    int node, 
+    unordered_map<int,bool> &visited, 
+    stack<int> &s,
+    unordered_map<int,list<int>> &adj) 
+  {
       visited[node] = 1;
       
-      for(auto neighbour: adj[node]){
-          if(!visited[neighbour]){
-              topSort(neighbour, visited, s, adj);
+      for(int ngb : adj[node]){
+          if(!visited[ngb]){
+              topSort(ngb, visited, s, adj);
           }
       }
       

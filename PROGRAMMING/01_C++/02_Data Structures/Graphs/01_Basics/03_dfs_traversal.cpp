@@ -6,7 +6,7 @@ void dfs(vector<vector<int>> &adj, unordered_map<int,bool> &visited, vector<int>
     ans.push_back(node);
     visited[node] = 1;
     
-    for(auto i: adj[node]){
+    for(int i: adj[node]){
         if(!visited[i]){
             dfs(adj, visited, ans, i);
         }
