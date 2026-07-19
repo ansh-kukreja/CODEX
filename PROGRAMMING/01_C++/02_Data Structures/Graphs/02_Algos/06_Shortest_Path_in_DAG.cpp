@@ -1,2 +1,0 @@
-
-// Khud se krle bhai

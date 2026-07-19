@@ -132,6 +132,8 @@
 
 - Min Stack <b>(HARD, TRICKY, Pattern: Encoding Numbers)</b> [Love Babbar](https://youtu.be/OpwYmEBcPh0?si=9lCQUHpsK1PD0iWT), [Leetcode 155](https://leetcode.com/problems/min-stack)
 
+- Smallest Subsequence of Distinct Characters <b>(Pending)</b> [Leetcode 1081](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters?envType=daily-question&envId=2026-07-19)
+
 
 
 
@@ -344,4 +346,8 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 - Topological Sort using DFS <b>(Pattern: Stack)</b> [CodeStoryWithMIK](https://youtu.be/WbbYZRr4arw?si=cJqu81RIH9CHr38J), [GFG](https://www.geeksforgeeks.org/problems/topological-sort/1)
 
 - Topological Sort using BFS - Kahn's Algorithm <b>(Pattern: BFS)</b> [GFG](https://www.geeksforgeeks.org/problems/topological-sort/1)
+
+- Number of Provinces <b>(Graph Traversal)</b> [Leetcode 547](https://leetcode.com/problems/number-of-provinces)
+
+- Course Schedule <b>(Pattern: Kahn's Algorithm)</b> [Leetcode 207](https://leetcode.com/problems/course-schedule)
 
