@@ -351,3 +351,24 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 - Course Schedule <b>(Pattern: Kahn's Algorithm)</b> [Leetcode 207](https://leetcode.com/problems/course-schedule)
 
+- Is Graph Bipartite <b>(Graph Traversal)</b> [Leetcode 785](https://leetcode.com/problems/is-graph-bipartite)
+
+
+
+
+
+
+
+
+<br>
+<br>
+
+## Dynamic Programming
+
+- Fibonacci Series <b>(1D DP)</b> [Leetcode 509](https://leetcode.com/problems/fibonacci-number)
+
+- Climbing Stairs <b>(1D DP)</b> [Leetcode 70](https://leetcode.com/problems/climbing-stairs)
+
+- Min Cost Climbing Stairs <b>(1D DP - Pending)</b> [Leetcode 746](https://leetcode.com/problems/min-cost-climbing-stairs)
+
+- House Robber <b>(1D DP)</b> [Leetcode 198](https://leetcode.com/problems/house-robber)
