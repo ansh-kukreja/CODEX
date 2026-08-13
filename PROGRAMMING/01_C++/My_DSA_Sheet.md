@@ -371,6 +371,8 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 - Min Cost Climbing Stairs <b>(1D DP - Pending)</b> [Leetcode 746](https://leetcode.com/problems/min-cost-climbing-stairs)
 
-- House Robber <b>(1D DP)</b> [Leetcode 198](https://leetcode.com/problems/house-robber)
+- House Robber I <b>(1D DP)</b> [Leetcode 198](https://leetcode.com/problems/house-robber)
+</br>House Robber II <b>(1D DP)</b> [Leetcode 213](https://leetcode.com/problems/house-robber-ii)</br>
 
-- Maximum Alternating Subsequence Sum <b>(2D DP)</b> [Leetcode 1911](https://leetcode.com/problems/maximum-alternating-subsequence-sum)
+- Maximum Alternating Subsequence Sum <b>(1D DP, VV. IMPORTANT)</b> [Leetcode 1911](https://leetcode.com/problems/maximum-alternating-subsequence-sum)
+
