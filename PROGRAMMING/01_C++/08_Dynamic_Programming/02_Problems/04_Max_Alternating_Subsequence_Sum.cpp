@@ -78,3 +78,32 @@ public:
 
 // Bottom-Up (Tabulation)
 
+class Solution {
+public:
+    long long maxAlternatingSum(vector<int>& nums) {
+        int n = nums.size();
+
+        vector< vector<long> > dp(n+1, vector<long> (2,0));
+
+
+        for (int i=1; i<=n; i++) {
+
+            // Even Length
+            dp[i][1] =  max(
+                            dp[i-1][0] - nums[i-1],  // Take
+                            dp[i-1][1]               // Skip
+                        );
+
+            // Odd Length
+            dp[i][0] =  max(
+                            dp[i-1][1] + nums[i-1],  // Take
+                            dp[i-1][0]               // Skip
+                        );
+        }
+
+        return max(
+                    dp[n][1], 
+                    dp[n][0]
+                );
+    }
+};

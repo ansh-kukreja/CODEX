@@ -376,3 +376,5 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 - Maximum Alternating Subsequence Sum <b>(1D DP, VV. IMPORTANT)</b> [Leetcode 1911](https://leetcode.com/problems/maximum-alternating-subsequence-sum)
 
+- Longest Increasing Subsequence <b>(Pattern LIS)</b> [Leetcode 300](https://leetcode.com/problems/longest-increasing-subsequence)
+
