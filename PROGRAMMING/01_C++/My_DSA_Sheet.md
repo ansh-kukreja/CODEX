@@ -376,5 +376,15 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 - Maximum Alternating Subsequence Sum <b>(1D DP, VV. IMPORTANT)</b> [Leetcode 1911](https://leetcode.com/problems/maximum-alternating-subsequence-sum)
 
-- Longest Increasing Subsequence <b>(Pattern LIS)</b> [Leetcode 300](https://leetcode.com/problems/longest-increasing-subsequence)
+- Longest Increasing Subsequence <b>(1D DP, Pattern LIS)</b> [Leetcode 300](https://leetcode.com/problems/longest-increasing-subsequence)
+<br><i><b>Sub-Problems</b><br>
+Maximum Length of Pair Chain [Leetcode 646](https://leetcode.com/problems/maximum-length-of-pair-chain)</br>
+Longest String Chain [Leetcode 1048](https://leetcode.com/problems/longest-string-chain)</br>
+==> Lec #15 - #18 is Pending of this Pattern
+</i>
+
+<hr>
+
+- Max <b>(DP on Strings)</b> [Leetcode ]()
+
 

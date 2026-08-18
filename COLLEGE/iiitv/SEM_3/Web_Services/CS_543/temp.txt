@@ -1,0 +1,3 @@
+curl -i -X POST -H "Content-Type:application/json" -d '{"name":"Ansh"}' https://jsonplaceholder.typicode.com/users
+
+curl -i -X POST -d '{"title":"hi"}' https://jsonplaceholder.typicode.com/posts 
