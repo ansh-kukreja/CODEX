@@ -385,6 +385,10 @@ Longest String Chain [Leetcode 1048](https://leetcode.com/problems/longest-strin
 
 <hr>
 
-- Max <b>(DP on Strings)</b> [Leetcode ]()
+- Longest Common Subsequence <b>(DP on Strings)</b> [Leetcode 1143](https://leetcode.com/problems/longest-common-subsequence)
+
+- Shortest Common Supersequence <b>(DP on Strings, Pending)</b> [Leetcode 1092](https://leetcode.com/problems/shortest-common-supersequence)
+
+
 
 
