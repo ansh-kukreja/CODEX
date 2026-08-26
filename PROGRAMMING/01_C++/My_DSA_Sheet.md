@@ -389,6 +389,12 @@ Longest String Chain [Leetcode 1048](https://leetcode.com/problems/longest-strin
 
 - Shortest Common Supersequence <b>(DP on Strings, Pending)</b> [Leetcode 1092](https://leetcode.com/problems/shortest-common-supersequence)
 
+- Edit Distance <b>(DP on Strings)</b> [Leetcode 72](https://leetcode.com/problems/edit-distance)
+
+- Longest Palindromic Substring <b>(DP on Strings)</b> [Leetcode 5](https://leetcode.com/problems/longest-palindromic-substring)
+
+<hr>
+
 
 
 
