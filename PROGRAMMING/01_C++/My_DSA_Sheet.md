@@ -365,24 +365,40 @@ Flatten a Binary Tree [Solution](https://leetcode.com/problems/flatten-binary-tr
 
 ## Dynamic Programming
 
-- Fibonacci Series <b>(1D DP)</b> [Leetcode 509](https://leetcode.com/problems/fibonacci-number)
+<hr>
+1D DP
+<hr>
 
-- Climbing Stairs <b>(1D DP)</b> [Leetcode 70](https://leetcode.com/problems/climbing-stairs)
+- Fibonacci Series [Leetcode 509](https://leetcode.com/problems/fibonacci-number)
 
-- Min Cost Climbing Stairs <b>(1D DP - Pending)</b> [Leetcode 746](https://leetcode.com/problems/min-cost-climbing-stairs)
+- Climbing Stairs [Leetcode 70](https://leetcode.com/problems/climbing-stairs)
 
-- House Robber I <b>(1D DP)</b> [Leetcode 198](https://leetcode.com/problems/house-robber)
-</br>House Robber II <b>(1D DP)</b> [Leetcode 213](https://leetcode.com/problems/house-robber-ii)</br>
+- Min Cost Climbing Stairs [Leetcode 746](https://leetcode.com/problems/min-cost-climbing-stairs)
 
-- Maximum Alternating Subsequence Sum <b>(1D DP, VV. IMPORTANT)</b> [Leetcode 1911](https://leetcode.com/problems/maximum-alternating-subsequence-sum)
+- House Robber I [Leetcode 198](https://leetcode.com/problems/house-robber)
+</br>House Robber II [Leetcode 213](https://leetcode.com/problems/house-robber-ii)</br>
 
-- Longest Increasing Subsequence <b>(1D DP, Pattern LIS)</b> [Leetcode 300](https://leetcode.com/problems/longest-increasing-subsequence)
+- Count Dearrangements <b>(Reccurence Relation)</b> [CodeStudio](https://www.naukri.com/code360/problems/count-derangements_873861), [Love Babbar](https://youtu.be/NW-BLDQHFXk?si=T_AZb5_O6Sm8o_MB)
+
+- Paint Fence / Ninja and the Fence <b>(Google - VV. IMPORTANT, Reccurence Relation)</b> [CodeStudio](https://www.naukri.com/code360/problems/ninja-and-the-fence_3210208), [Love Babbar](https://youtu.be/5eFh5CC-8KY?si=71Y5dPHaTEemX-CI)
+
+- Maximum Alternating Subsequence Sum <b>(VV. IMPORTANT)</b> [Leetcode 1911](https://leetcode.com/problems/maximum-alternating-subsequence-sum)
+
+- Longest Increasing Subsequence <b>(Pattern LIS)</b> [Leetcode 300](https://leetcode.com/problems/longest-increasing-subsequence)
 <br><i><b>Sub-Problems</b><br>
 Maximum Length of Pair Chain [Leetcode 646](https://leetcode.com/problems/maximum-length-of-pair-chain)</br>
 Longest String Chain [Leetcode 1048](https://leetcode.com/problems/longest-string-chain)</br>
 ==> Lec #15 - #18 is Pending of this Pattern
 </i>
 
+<hr>
+2D DP
+<hr>
+
+
+
+<hr>
+DP on Strings
 <hr>
 
 - Longest Common Subsequence <b>(DP on Strings)</b> [Leetcode 1143](https://leetcode.com/problems/longest-common-subsequence)
@@ -392,9 +408,3 @@ Longest String Chain [Leetcode 1048](https://leetcode.com/problems/longest-strin
 - Edit Distance <b>(DP on Strings)</b> [Leetcode 72](https://leetcode.com/problems/edit-distance)
 
 - Longest Palindromic Substring <b>(DP on Strings)</b> [Leetcode 5](https://leetcode.com/problems/longest-palindromic-substring)
-
-<hr>
-
-
-
-

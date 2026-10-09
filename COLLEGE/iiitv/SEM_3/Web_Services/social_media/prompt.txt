@@ -1,0 +1,1 @@
+create a social media platform like instagram, name it "NamoGram" create the whole website using REST framework for backend, follow all the guidelines mentioned in the attached image, and use blue colour theme by refering to the attached image of a mobile app theme, create the website using MERN stack, do not use any database yet, show only static data

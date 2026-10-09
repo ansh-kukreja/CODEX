@@ -1,0 +1,15 @@
+{
+  "name": "namogram-workspace",
+  "version": "1.0.0",
+  "description": "NamoGram - Social Media Platform with RESTful Services Checklist Compliance",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "test": "npm run test --prefix backend",
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
